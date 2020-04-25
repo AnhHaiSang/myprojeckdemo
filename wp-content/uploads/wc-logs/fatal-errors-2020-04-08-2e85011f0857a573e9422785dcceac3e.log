@@ -1,0 +1,156 @@
+2020-04-08T08:40:30+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_get_svg() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\footer.php:34
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(722): require_once()
+#1 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(671): load_template('C:\\xampp\\htdocs...', true)
+#2 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor-pro\modules\theme-builder\classes\theme-support.php(102): locate_template(Array, true)
+#3 C:\xampp\htdocs\anhhaisang\wp-includes\class-wp-hook.php(288): ElementorPro\Modules\ThemeBuilder\Classes\Theme_Support->get_footer('')
+#4 C:\xampp\htdocs\anhhaisang\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\anhhaisang\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(66): do_action('get_footer', NULL)
+#7 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\single.php(86): get_footer()
+#8 C:\xampp\htdocs\anhhaisang\wp-includes\tem in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\footer.php on line 34
+
+2020-04-08T09:01:32+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_get_svg() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\footer.php:34
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(722): require_once()
+#1 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(671): load_template('C:\\xampp\\htdocs...', true)
+#2 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor-pro\modules\theme-builder\classes\theme-support.php(102): locate_template(Array, true)
+#3 C:\xampp\htdocs\anhhaisang\wp-includes\class-wp-hook.php(288): ElementorPro\Modules\ThemeBuilder\Classes\Theme_Support->get_footer('')
+#4 C:\xampp\htdocs\anhhaisang\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\anhhaisang\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(66): do_action('get_footer', NULL)
+#7 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\single.php(86): get_footer()
+#8 C:\xampp\htdocs\anhhaisang\wp-includes\tem in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\footer.php on line 34
+
+2020-04-08T09:18:11+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_get_svg() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\footer.php:34
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(722): require_once()
+#1 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(671): load_template('C:\\xampp\\htdocs...', true)
+#2 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor-pro\modules\theme-builder\classes\theme-support.php(102): locate_template(Array, true)
+#3 C:\xampp\htdocs\anhhaisang\wp-includes\class-wp-hook.php(288): ElementorPro\Modules\ThemeBuilder\Classes\Theme_Support->get_footer('')
+#4 C:\xampp\htdocs\anhhaisang\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\anhhaisang\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(66): do_action('get_footer', NULL)
+#7 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\front-page.php(37): get_footer()
+#8 C:\xampp\htdocs\anhhaisang\wp-includes in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\footer.php on line 34
+
+2020-04-08T09:20:54+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_get_svg() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\footer.php:34
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(722): require_once()
+#1 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(671): load_template('C:\\xampp\\htdocs...', true)
+#2 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor-pro\modules\theme-builder\classes\theme-support.php(102): locate_template(Array, true)
+#3 C:\xampp\htdocs\anhhaisang\wp-includes\class-wp-hook.php(288): ElementorPro\Modules\ThemeBuilder\Classes\Theme_Support->get_footer('')
+#4 C:\xampp\htdocs\anhhaisang\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\anhhaisang\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(66): do_action('get_footer', NULL)
+#7 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\front-page.php(37): get_footer()
+#8 C:\xampp\htdocs\anhhaisang\wp-includes in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\footer.php on line 34
+
+2020-04-08T09:21:16+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_get_svg() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\footer.php:34
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(722): require_once()
+#1 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(671): load_template('C:\\xampp\\htdocs...', true)
+#2 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor-pro\modules\theme-builder\classes\theme-support.php(102): locate_template(Array, true)
+#3 C:\xampp\htdocs\anhhaisang\wp-includes\class-wp-hook.php(288): ElementorPro\Modules\ThemeBuilder\Classes\Theme_Support->get_footer('')
+#4 C:\xampp\htdocs\anhhaisang\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\anhhaisang\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(66): do_action('get_footer', NULL)
+#7 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\single.php(86): get_footer()
+#8 C:\xampp\htdocs\anhhaisang\wp-includes\tem in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\footer.php on line 34
+
+2020-04-08T09:24:53+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_get_svg() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\footer.php:34
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(722): require_once()
+#1 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(671): load_template('C:\\xampp\\htdocs...', true)
+#2 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor-pro\modules\theme-builder\classes\theme-support.php(102): locate_template(Array, true)
+#3 C:\xampp\htdocs\anhhaisang\wp-includes\class-wp-hook.php(288): ElementorPro\Modules\ThemeBuilder\Classes\Theme_Support->get_footer('')
+#4 C:\xampp\htdocs\anhhaisang\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\anhhaisang\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(66): do_action('get_footer', NULL)
+#7 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\front-page.php(37): get_footer()
+#8 C:\xampp\htdocs\anhhaisang\wp-includes in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\footer.php on line 34
+
+2020-04-08T09:26:06+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_get_svg() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\footer.php:34
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(722): require_once()
+#1 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(671): load_template('C:\\xampp\\htdocs...', true)
+#2 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor-pro\modules\theme-builder\classes\theme-support.php(102): locate_template(Array, true)
+#3 C:\xampp\htdocs\anhhaisang\wp-includes\class-wp-hook.php(288): ElementorPro\Modules\ThemeBuilder\Classes\Theme_Support->get_footer('')
+#4 C:\xampp\htdocs\anhhaisang\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\anhhaisang\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(66): do_action('get_footer', NULL)
+#7 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\front-page.php(37): get_footer()
+#8 C:\xampp\htdocs\anhhaisang\wp-includes in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\footer.php on line 34
+
+2020-04-08T09:27:46+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_get_svg() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\footer.php:34
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(722): require_once()
+#1 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(671): load_template('C:\\xampp\\htdocs...', true)
+#2 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor-pro\modules\theme-builder\classes\theme-support.php(102): locate_template(Array, true)
+#3 C:\xampp\htdocs\anhhaisang\wp-includes\class-wp-hook.php(288): ElementorPro\Modules\ThemeBuilder\Classes\Theme_Support->get_footer('')
+#4 C:\xampp\htdocs\anhhaisang\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\anhhaisang\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(66): do_action('get_footer', NULL)
+#7 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\front-page.php(37): get_footer()
+#8 C:\xampp\htdocs\anhhaisang\wp-includes in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\footer.php on line 34
+
+2020-04-08T09:28:24+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_get_svg() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\footer.php:34
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(722): require_once()
+#1 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(671): load_template('C:\\xampp\\htdocs...', true)
+#2 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor-pro\modules\theme-builder\classes\theme-support.php(102): locate_template(Array, true)
+#3 C:\xampp\htdocs\anhhaisang\wp-includes\class-wp-hook.php(288): ElementorPro\Modules\ThemeBuilder\Classes\Theme_Support->get_footer('')
+#4 C:\xampp\htdocs\anhhaisang\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\anhhaisang\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(66): do_action('get_footer', NULL)
+#7 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\front-page.php(37): get_footer()
+#8 C:\xampp\htdocs\anhhaisang\wp-includes in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\footer.php on line 34
+
+2020-04-08T09:32:53+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_get_svg() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\footer.php:34
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(722): require_once()
+#1 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(671): load_template('C:\\xampp\\htdocs...', true)
+#2 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor-pro\modules\theme-builder\classes\theme-support.php(102): locate_template(Array, true)
+#3 C:\xampp\htdocs\anhhaisang\wp-includes\class-wp-hook.php(288): ElementorPro\Modules\ThemeBuilder\Classes\Theme_Support->get_footer('')
+#4 C:\xampp\htdocs\anhhaisang\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\anhhaisang\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(66): do_action('get_footer', NULL)
+#7 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\front-page.php(37): get_footer()
+#8 C:\xampp\htdocs\anhhaisang\wp-includes in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\footer.php on line 34
+
+2020-04-08T09:35:15+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_get_svg() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\footer.php:34
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(722): require_once()
+#1 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(671): load_template('C:\\xampp\\htdocs...', true)
+#2 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor-pro\modules\theme-builder\classes\theme-support.php(102): locate_template(Array, true)
+#3 C:\xampp\htdocs\anhhaisang\wp-includes\class-wp-hook.php(288): ElementorPro\Modules\ThemeBuilder\Classes\Theme_Support->get_footer('')
+#4 C:\xampp\htdocs\anhhaisang\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\anhhaisang\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(66): do_action('get_footer', NULL)
+#7 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\front-page.php(37): get_footer()
+#8 C:\xampp\htdocs\anhhaisang\wp-includes in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\footer.php on line 34
+
+2020-04-08T09:37:10+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_get_svg() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\footer.php:34
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(722): require_once()
+#1 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(671): load_template('C:\\xampp\\htdocs...', true)
+#2 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor-pro\modules\theme-builder\classes\theme-support.php(102): locate_template(Array, true)
+#3 C:\xampp\htdocs\anhhaisang\wp-includes\class-wp-hook.php(288): ElementorPro\Modules\ThemeBuilder\Classes\Theme_Support->get_footer('')
+#4 C:\xampp\htdocs\anhhaisang\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\anhhaisang\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(66): do_action('get_footer', NULL)
+#7 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\front-page.php(37): get_footer()
+#8 C:\xampp\htdocs\anhhaisang\wp-includes in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\footer.php on line 34
+
+2020-04-08T09:38:31+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_get_svg() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\footer.php:34
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(722): require_once()
+#1 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(671): load_template('C:\\xampp\\htdocs...', true)
+#2 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor-pro\modules\theme-builder\classes\theme-support.php(102): locate_template(Array, true)
+#3 C:\xampp\htdocs\anhhaisang\wp-includes\class-wp-hook.php(288): ElementorPro\Modules\ThemeBuilder\Classes\Theme_Support->get_footer('')
+#4 C:\xampp\htdocs\anhhaisang\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\anhhaisang\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(66): do_action('get_footer', NULL)
+#7 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\single.php(86): get_footer()
+#8 C:\xampp\htdocs\anhhaisang\wp-includes\tem in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\footer.php on line 34
+

@@ -1,0 +1,39 @@
+
+.elementor-widget-container{
+	.jws-cart-use{
+		font-family: "Barlow", Sans-serif;
+		font-size: 16px;
+		color: black;
+		span.my-icon-wrapper{
+			font-size: 16px;
+			&:hover{
+				i{
+					&:before{
+						font-weight: 900;
+						-webkit-transition: all .5s ease;
+						-moz-transition: all .5s ease;
+						-ms-transition: all .5s ease;
+						-o-transition: all .5s ease;
+						transition: all .5s ease;
+					}
+				}
+			}
+			span.woocommerce-Price-amount.amount.price-item{
+				display: none;
+				color: #e63f52;
+				font-weight: 500;
+			}
+		}
+		span.cart-lable{
+			font-weight: 500;
+		}
+	}
+	.widget_shopping_cart_content{
+		display: none;
+	}
+	.cart-contents{
+		span.woocommerce-Price-amount.amount.price-item{
+			display: inline;
+		}
+	}
+}

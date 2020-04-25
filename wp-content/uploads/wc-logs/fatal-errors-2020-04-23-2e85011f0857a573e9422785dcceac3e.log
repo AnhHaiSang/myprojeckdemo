@@ -1,0 +1,64 @@
+2020-04-23T00:59:53+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 1057
+
+2020-04-23T01:02:24+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 1056
+
+2020-04-23T01:02:42+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 1057
+
+2020-04-23T01:02:49+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 1057
+
+2020-04-23T01:03:12+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 1057
+
+2020-04-23T01:08:15+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\archive-services.php on line 52
+
+2020-04-23T01:08:47+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 1057
+
+2020-04-23T01:08:54+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\archive-services.php on line 52
+
+2020-04-23T01:12:47+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 1057
+
+2020-04-23T01:19:00+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 1057
+
+2020-04-23T01:29:40+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 1057
+
+2020-04-23T01:31:16+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\page.php on line 38
+
+2020-04-23T01:31:43+00:00 CRITICAL syntax error, unexpected ''mid_size'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\page.php on line 38
+
+2020-04-23T01:34:07+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 1057
+
+2020-04-23T01:35:11+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 1057
+
+2020-04-23T01:37:25+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 1057
+
+2020-04-23T03:02:31+00:00 CRITICAL syntax error, unexpected ''<i class="fas fa-chevron-left' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 1055
+
+2020-04-23T03:02:32+00:00 CRITICAL syntax error, unexpected ''<i class="fas fa-chevron-left' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 1055
+
+2020-04-23T03:02:48+00:00 CRITICAL syntax error, unexpected ''<i class="fas fa-chevron-left' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 1055
+
+2020-04-23T08:01:06+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\gallery\layout\layout1.php on line 7
+
+2020-04-23T08:13:18+00:00 CRITICAL syntax error, unexpected 'while' (T_WHILE) in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\gallery\layout\layout1.php on line 4
+
+2020-04-23T08:28:55+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\gallery\layout\layout1.php on line 6
+
+2020-04-23T08:29:11+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\gallery\layout\layout1.php on line 6
+
+2020-04-23T08:29:40+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\gallery\layout\layout1.php on line 6
+
+2020-04-23T08:30:52+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\gallery\layout\layout1.php on line 14
+
+2020-04-23T08:31:51+00:00 CRITICAL syntax error, unexpected 'while' (T_WHILE) in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\gallery\layout\layout1.php on line 15
+
+2020-04-23T08:32:44+00:00 CRITICAL syntax error, unexpected '$position' (T_VARIABLE) in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\gallery\layout\layout1.php on line 17
+
+2020-04-23T08:34:53+00:00 CRITICAL syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\gallery\layout\layout1.php on line 6
+
+2020-04-23T08:58:21+00:00 CRITICAL syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST) in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\gallery\gallery.php on line 411
+
+2020-04-23T08:58:32+00:00 CRITICAL syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST) in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\gallery\gallery.php on line 411
+
+2020-04-23T09:06:46+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\gallery\layout\layout1.php on line 4
+
+2020-04-23T09:06:59+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\gallery\layout\layout1.php on line 4
+

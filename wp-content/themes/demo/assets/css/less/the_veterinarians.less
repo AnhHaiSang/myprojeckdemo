@@ -1,0 +1,129 @@
+.elementor-widget-container{
+	ul.container-the-veterinarians{
+		list-style: none;
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		ul.slick-dots{
+			display: none;
+		}
+		li.wrapp-the-veterinarians {
+			flex: 0 0 33.3333333%;
+			max-width: 33.3333333%;
+			&:hover{
+				.content{
+					.description{
+						height: 0px;
+						visibility: hidden;
+						transition: all 0.3s ease;
+					}
+					.appointment{
+						opacity: 1;
+						transition: all 0.5s ease;
+						-webkit-transform: translateX(0);
+						-o-transform: translateX(0);
+						-ms-transform: translateX(0);
+						-moz-transform: translateX(0);
+						transform: translateX(0);
+						visibility: visible;
+					}
+				}
+				.the-veterinarians-thumbnail{
+					.contact-the-veterinarians{
+						opacity: 1;
+						-webkit-transition: all 0.5s ease-in;
+						-moz-transition: all 0.5s ease-in;
+						-ms-transition: all 0.5s ease-in;
+						-o-transition: all 0.5s ease-in;
+						transition: all 0.5s ease-in;
+						background-color: rgba(0,0,0,0.5);
+						.wrapp-the-veterinarians-icon{
+							-webkit-transition: all 0.5s ease-in;
+							-moz-transition: all 0.5s ease-in;
+							-ms-transition: all 0.5s ease-in;
+							-o-transition: all 0.5s ease-in;
+							transition: all 0.5s ease-in;
+							-webkit-transform: translateY(0);
+							-o-transform: translateY(0);
+							-ms-transform: translateY(0);
+							-moz-transform: translateY(0);
+							transform: translateY(0);
+							visibility: visible;
+						}
+					}
+				}
+			}
+			.content{
+				.appointment{
+					opacity: 0;
+					transform: translateY(50px);
+					visibility: hidden;
+					-webkit-transition: all 0.5s ease-in;
+					-moz-transition: all 0.5s ease-in;
+					-ms-transition: all 0.5s ease-in;
+					-o-transition: all 0.5s ease-in;
+					transition: all 0.5s ease-in;
+				}
+			}
+			.the-veterinarians-thumbnail{
+				position: relative;
+				width: 100%;
+				img.attachment-medium.size-medium.wp-post-image{
+					width: 100%;
+				}
+				.contact-the-veterinarians{
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					display: flex;
+					align-items: center;
+					opacity: 0;
+					-webkit-transition: all 0.5s ease-in;
+					-moz-transition: all 0.5s ease-in;
+					-ms-transition: all 0.5s ease-in;
+					-o-transition: all 0.5s ease-in;
+					transition: all 0.5s ease-in;
+					.wrapp-the-veterinarians-icon{
+						width: 100%;
+						margin: 0;
+						padding: 0;
+						list-style: none;
+						text-align: center;
+						display: flex;
+						justify-content: center;
+						transform: translateY(-50px);
+						visibility: hidden;
+						-webkit-transition: all 0.5s ease-in;
+						-moz-transition: all 0.5s ease-in;
+						-ms-transition: all 0.5s ease-in;
+						-o-transition: all 0.5s ease-in;
+						transition: all 0.5s ease-in;
+						span.icon-item{
+							display: flex;
+							cursor: pointer;
+							justify-content: center;
+							align-items: center;
+							&:hover{
+								background-color: #333;
+								transition: 0.5s;
+							}
+						}
+					}
+				}
+			}
+			.position-a-link {
+				display: flex;
+				justify-content: center;
+				a.link-single-post.a-single{
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+			}
+		}
+	}
+}

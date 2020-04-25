@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Early Bird';
+    src: url('EarlyBird.eot');
+    src: url('EarlyBird.eot?#iefix') format('embedded-opentype'),
+        url('EarlyBird.woff2') format('woff2'),
+        url('EarlyBird.woff') format('woff'),
+        url('EarlyBird.ttf') format('truetype'),
+        url('EarlyBird.svg#EarlyBird') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

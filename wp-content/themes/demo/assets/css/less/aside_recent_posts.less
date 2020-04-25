@@ -1,0 +1,67 @@
+.elementor-widget-container{
+	ul.list-post-aside{
+		&.layout2{
+			li.container-post {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				margin: 0 0 26px 0;
+				&:hover{
+					.post_thumbnail{
+						.img-post-aside{
+							border: 1px solid #3ac36d;
+							transition: 0.5s ease-in-out;
+							img.attachment-medium.size-medium.wp-post-image{
+								transition: 0.5s ease-in-out;
+								transform: scale(1.1);
+							}
+						}
+					}
+					.title{
+						h2.post-title{
+							a.link-single-post{
+								color: #3ac36d;
+								transition: 0.5s ease-in-out;
+							}
+						}
+					}
+				}
+				.post_thumbnail{
+					width: 37%;
+					.img-post-aside {
+						padding: 6px;
+						border: 1px solid #dedede;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						img.attachment-medium.size-medium.wp-post-image{
+							width: 100%;
+							height: auto;
+						}
+					}
+				}
+				.title{
+					width: 63%;
+					padding: 0 10px 0 20px;
+					h2.post-title{
+						font-size: 14px;
+						margin: 0 0 0 0;
+						font-weight: 500;
+						line-height: 18px;
+						a.link-single-post{
+							color: #031b18;
+						}
+					}
+					p.date-post{
+						margin: 0 0 0 0;
+						font-family: "Montserrat", Sans-serif;
+						text-transform: uppercase;
+						font-size: 13px;
+						font-weight: 500;
+						color: #959595;
+					}
+				}
+			}
+		}
+	}
+}

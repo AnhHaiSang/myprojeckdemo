@@ -1,0 +1,41 @@
+2020-04-13T00:45:34+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\pet_care\pet_care.php on line 440
+
+2020-04-13T05:01:30+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\template-functions.php on line 615
+
+2020-04-13T05:02:02+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\template-functions.php on line 615
+
+2020-04-13T05:03:13+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\template-functions.php on line 615
+
+2020-04-13T05:03:30+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\template-functions.php on line 615
+
+2020-04-13T05:04:39+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\template-functions.php on line 615
+
+2020-04-13T06:01:14+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\single.php on line 95
+
+2020-04-13T06:01:58+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\single.php on line 95
+
+2020-04-13T06:04:57+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE), expecting end of file in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\template-parts\post_related\post_related.php on line 64
+
+2020-04-13T08:02:34+00:00 CRITICAL syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\comments.php on line 41
+
+2020-04-13T08:43:09+00:00 CRITICAL syntax error, unexpected '':'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\template-functions.php on line 519
+
+2020-04-13T11:24:35+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\category\category_posts_petty.php:238
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor\includes\base\widget-base.php(531): Elementor\Category_Posts_Petty->render()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor\includes\base\widget-base.php(644): Elementor\Widget_Base->render_content()
+#2 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor\includes\base\element-base.php(746): Elementor\Widget_Base->get_raw_data(true)
+#3 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor\includes\base\element-base.php(746): Elementor\Element_Base->get_raw_data(true)
+#4 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor\core\base\document.php(714): Elementor\Element_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor-pro\modules\theme-builder\documents\theme-document.php(197): Elementor\Core\Bas in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\category\category_posts_petty.php on line 238
+
+2020-04-13T11:50:24+00:00 CRITICAL syntax error, unexpected '$category' (T_VARIABLE) in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\category\category_posts_petty.php on line 243
+
+2020-04-13T13:40:48+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\gallery\layout\layout1.php on line 6
+
+2020-04-13T13:48:07+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\gallery\gallery.php on line 428
+
+2020-04-13T13:48:36+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\gallery\gallery.php on line 428
+
+2020-04-13T15:09:16+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\category\category_posts_petty.php on line 245
+

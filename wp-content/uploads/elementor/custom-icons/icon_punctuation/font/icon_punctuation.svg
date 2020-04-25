@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2020 by original authors @ fontello.com</metadata>
+<defs>
+<font id="icon_punctuation" horiz-adv-x="1000" >
+<font-face font-family="icon_punctuation" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="left-quote" unicode="&#xe800;" d="M320 389c-25 7-49 11-73 11-37 0-68-9-92-19 23 85 79 230 189 247 10 1 19 9 21 19l25 86c2 7 0 15-4 21s-11 11-18 12c-8 1-17 2-25 2-132 0-264-139-319-337-33-116-42-291 38-401 45-61 110-94 194-98 1 0 1 0 1 0 104 0 196 70 224 171 17 59 9 122-21 176-30 54-80 93-140 110z m650-110c-30 54-80 93-140 110-24 7-49 11-73 11-37 0-68-9-92-19 23 85 79 230 189 247 10 1 19 9 22 19l24 86c2 7 0 15-4 21-4 7-11 11-18 12-8 1-16 2-25 2-132 0-264-139-319-337-32-116-42-291 38-401 45-61 110-94 194-98 1 0 1 0 1 0 104 0 196 70 224 171 17 59 10 122-21 176z" horiz-adv-x="1000" />
+
+<glyph glyph-name="002-diamonds" unicode="&#xe801;" d="M500 850l-383-500 383-500 383 500-383 500z m0-904l-309 404 309 404 309-404-309-404z" horiz-adv-x="1000" />
+
+<glyph glyph-name="003-rhombus" unicode="&#xe802;" d="M495 842l-7 8-383-507-4-6 409-485 2-2 383 514 4 5-404 473z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

@@ -1,0 +1,66 @@
+2020-04-24T01:32:36+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\category\category_aside_shop_page.php on line 233
+
+2020-04-24T01:32:56+00:00 CRITICAL syntax error, unexpected 'get_term_link' (T_STRING), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\category\category_aside_shop_page.php on line 233
+
+2020-04-24T01:33:08+00:00 CRITICAL syntax error, unexpected 'get_term_link' (T_STRING), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\category\category_aside_shop_page.php on line 233
+
+2020-04-24T01:33:31+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\category\category_aside_shop_page.php on line 233
+
+2020-04-24T01:33:45+00:00 CRITICAL syntax error, unexpected 'get_term_link' (T_STRING), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\category\category_aside_shop_page.php on line 233
+
+2020-04-24T01:34:42+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\category\category_aside_shop_page.php:233
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor\includes\base\widget-base.php(531): Elementor\Category_Aside_Shop_Page->render()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor\includes\base\widget-base.php(661): Elementor\Widget_Base->render_content()
+#2 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor\includes\base\element-base.php(668): Elementor\Widget_Base->_print_content()
+#3 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor\includes\base\element-base.php(884): Elementor\Element_Base->print_element()
+#4 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor\includes\base\element-base.php(668): Elementor\Element_Base->_print_content()
+#5 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor\includes\base\element-base.php(884): Elementor\Element_Base->print_ele in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\category\category_aside_shop_page.php on line 233
+
+2020-04-24T01:35:16+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\category\category_aside_shop_page.php on line 223
+
+2020-04-24T01:35:37+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\category\category_aside_shop_page.php:233
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor\includes\base\widget-base.php(531): Elementor\Category_Aside_Shop_Page->render()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor\includes\base\widget-base.php(661): Elementor\Widget_Base->render_content()
+#2 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor\includes\base\element-base.php(668): Elementor\Widget_Base->_print_content()
+#3 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor\includes\base\element-base.php(884): Elementor\Element_Base->print_element()
+#4 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor\includes\base\element-base.php(668): Elementor\Element_Base->_print_content()
+#5 C:\xampp\htdocs\anhhaisang\wp-content\plugins\elementor\includes\base\element-base.php(884): Elementor\Element_Base->print_ele in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\category\category_aside_shop_page.php on line 233
+
+2020-04-24T01:43:28+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_edit_link() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\template-parts\post\content-excerpt.php:29
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\search.php(44): get_template_part('template-parts/...', 'excerpt')
+#4 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\template-parts\post\content-excerpt.php on line 29
+
+2020-04-24T01:44:51+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_edit_link() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\template-parts\post\content-excerpt.php:29
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\search.php(43): get_template_part('template-parts/...', 'excerpt')
+#4 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\template-parts\post\content-excerpt.php on line 29
+
+2020-04-24T01:45:01+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_edit_link() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\template-parts\post\content-excerpt.php:29
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\search.php(43): get_template_part('template-parts/...', 'excerpt')
+#4 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\template-parts\post\content-excerpt.php on line 29
+

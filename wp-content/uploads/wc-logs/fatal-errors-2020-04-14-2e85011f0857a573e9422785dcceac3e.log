@@ -1,0 +1,12 @@
+2020-04-14T00:56:39+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_edit_link() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\template-parts\post\content-excerpt.php:29
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\search.php(44): get_template_part('template-parts/...', 'excerpt')
+#4 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\template-parts\post\content-excerpt.php on line 29
+

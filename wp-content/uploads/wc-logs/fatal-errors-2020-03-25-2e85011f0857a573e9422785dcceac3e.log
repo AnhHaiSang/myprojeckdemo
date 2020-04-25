@@ -1,0 +1,42 @@
+2020-03-25T00:46:39+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\single.php on line 144
+
+2020-03-25T00:49:53+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\single.php on line 156
+
+2020-03-25T00:50:20+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\single.php on line 154
+
+2020-03-25T00:51:44+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\single.php on line 156
+
+2020-03-25T00:51:46+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\single.php on line 156
+
+2020-03-25T00:53:49+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\single.php:112
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\single.php on line 112
+
+2020-03-25T00:55:30+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\single.php:112
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\single.php on line 112
+
+2020-03-25T01:00:07+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\single.php on line 152
+
+2020-03-25T01:00:40+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\single.php on line 152
+
+2020-03-25T01:06:45+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\single.php on line 144
+
+2020-03-25T03:48:19+00:00 CRITICAL Cannot redeclare woocommerce_template_loop_add_to_cart() (previously declared in C:\xampp\htdocs\anhhaisang\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1233) in C:\xampp\htdocs\anhhaisang\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1276
+
+2020-03-25T08:33:46+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\products\products.php on line 184
+
+2020-03-25T08:34:23+00:00 CRITICAL syntax error, unexpected '{', expecting '(' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\products\products.php on line 182
+
+2020-03-25T08:36:27+00:00 CRITICAL syntax error, unexpected '{', expecting '(' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\products\products.php on line 182
+
+2020-03-25T08:39:30+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\anhhaisang/wp-content/themes/demo/inc/elementor_widget/widgets/post_product_aside/post_product_aside.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\elementor_plugin.php on line 58
+

@@ -1,0 +1,832 @@
+2020-04-03T00:20:34+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T00:22:59+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T00:25:20+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T00:27:26+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T00:30:13+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T00:31:21+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T00:31:59+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T00:32:51+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T00:33:34+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T00:34:12+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T00:35:39+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T00:36:44+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T00:38:29+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T00:42:31+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T00:46:56+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T00:47:32+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T00:49:38+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T00:51:19+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T00:55:58+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T01:03:12+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T01:05:30+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T01:08:16+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T01:11:39+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T01:14:35+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T01:17:16+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T01:24:20+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T01:26:08+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T01:44:16+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T02:56:42+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\anhhaisang/wp-content/themes/demo/inc/elementor_widget/widgets/call_us_petty/call_us_petty.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\elementor_plugin.php on line 62
+
+2020-04-03T03:06:45+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T03:09:39+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T03:28:34+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\call_us_petty\call_us_petty.php on line 148
+
+2020-04-03T03:40:24+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T04:10:31+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\call_us_petty\call_us_petty.php on line 197
+
+2020-04-03T04:18:37+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T04:18:37+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T04:56:16+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T07:01:04+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T07:01:04+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T07:05:44+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T07:07:18+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T07:09:59+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T07:11:05+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T07:16:21+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T07:46:32+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T07:47:51+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T07:51:37+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T08:12:01+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T08:25:11+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T09:19:33+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\anhhaisang/wp-content/themes/demo/inc/elementor_widget/widgets/post_pet_care_services/post_pet_care_services.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\elementor_plugin.php on line 64
+
+2020-04-03T09:40:57+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T09:40:58+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T09:58:26+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T09:58:28+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T10:00:02+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T10:00:02+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T10:07:47+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T10:07:54+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T10:09:45+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T10:10:18+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T10:10:19+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T10:11:12+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T10:11:15+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T10:13:48+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T10:13:51+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T10:16:00+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\post\posts.php on line 176
+
+2020-04-03T10:16:12+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\post\posts.php on line 176
+
+2020-04-03T12:04:30+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T12:04:30+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T12:04:32+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T12:07:20+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T12:08:52+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T12:09:57+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T12:13:44+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T12:15:21+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T12:17:18+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T12:17:53+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T12:17:53+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T12:18:47+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T12:18:56+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T12:52:39+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T12:52:39+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T12:54:58+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T12:55:01+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T12:55:06+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T13:01:01+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T13:01:07+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-03T13:01:13+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+

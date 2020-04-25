@@ -1,0 +1,311 @@
+2020-04-09T00:55:33+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T00:55:36+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T00:57:33+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T00:57:37+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T00:59:33+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T00:59:38+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T01:01:34+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T01:01:38+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T01:03:35+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T01:03:39+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T01:05:35+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T01:05:40+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T01:07:35+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T01:07:40+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T01:09:36+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T01:09:41+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T01:11:37+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T01:11:42+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T01:13:37+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T01:13:42+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T01:15:38+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T01:15:43+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T01:15:52+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T01:15:54+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T01:17:39+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T01:17:44+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T01:19:39+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T01:19:44+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T01:22:16+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 905
+
+2020-04-09T01:22:35+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:925
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 925
+
+2020-04-09T01:22:46+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:940
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\anhhaisang\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhhaisang\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 940
+
+2020-04-09T01:31:01+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 897
+
+2020-04-09T01:31:09+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 897
+
+2020-04-09T01:31:41+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 897
+
+2020-04-09T01:31:47+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 897
+
+2020-04-09T01:33:18+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 897
+
+2020-04-09T01:33:40+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 902
+
+2020-04-09T01:33:42+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 902
+
+2020-04-09T01:33:48+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 902
+
+2020-04-09T01:33:53+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 897
+
+2020-04-09T01:34:15+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 897
+
+2020-04-09T01:34:20+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 897
+
+2020-04-09T01:35:04+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 897
+
+2020-04-09T01:35:43+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 900
+
+2020-04-09T01:35:49+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 900
+

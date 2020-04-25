@@ -1,0 +1,12 @@
+2020-04-20T01:38:04+00:00 CRITICAL syntax error, unexpected ''Services Categories'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 600
+
+2020-04-20T01:38:31+00:00 CRITICAL syntax error, unexpected ''Services Categories'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 600
+
+2020-04-20T01:38:41+00:00 CRITICAL syntax error, unexpected ''Services Categories'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 600
+
+2020-04-20T01:38:46+00:00 CRITICAL syntax error, unexpected ''Services Categories'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 600
+
+2020-04-20T04:20:15+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\gallery\layout\layout2.php on line 40
+
+2020-04-20T04:21:27+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\gallery\layout\layout2.php on line 42
+

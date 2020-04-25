@@ -1,0 +1,100 @@
+2020-04-07T00:33:35+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-07T01:02:49+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-07T01:03:16+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php:13
+Stack trace:
+#0 C:\xampp\htdocs\anhhaisang\wp-includes\general-template.php(258): require()
+#1 C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\404.php(26): get_search_form()
+#2 C:\xampp\htdocs\anhhaisang\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhhaisang\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhhaisang\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\searchform.php on line 13
+
+2020-04-07T08:25:12+00:00 CRITICAL syntax error, unexpected '$settings' (T_VARIABLE), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 5
+
+2020-04-07T08:26:06+00:00 CRITICAL syntax error, unexpected '$settings' (T_VARIABLE), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 5
+
+2020-04-07T08:27:05+00:00 CRITICAL syntax error, unexpected '$settings' (T_VARIABLE), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 5
+
+2020-04-07T08:33:10+00:00 CRITICAL syntax error, unexpected '$settings' (T_VARIABLE), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 6
+
+2020-04-07T08:33:42+00:00 CRITICAL syntax error, unexpected '$settings' (T_VARIABLE), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 6
+
+2020-04-07T08:34:57+00:00 CRITICAL syntax error, unexpected '\' (T_NS_SEPARATOR), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 6
+
+2020-04-07T08:35:20+00:00 CRITICAL syntax error, unexpected '.', expecting end of file in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 6
+
+2020-04-07T08:35:52+00:00 CRITICAL syntax error, unexpected '.', expecting end of file in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 6
+
+2020-04-07T08:52:55+00:00 CRITICAL syntax error, unexpected '.', expecting end of file in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 6
+
+2020-04-07T08:53:16+00:00 CRITICAL syntax error, unexpected '.', expecting end of file in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 6
+
+2020-04-07T09:54:57+00:00 CRITICAL syntax error, unexpected 'icon' (T_STRING), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 4
+
+2020-04-07T09:55:53+00:00 CRITICAL syntax error, unexpected '.', expecting end of file in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 4
+
+2020-04-07T09:56:18+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 4
+
+2020-04-07T10:00:13+00:00 CRITICAL syntax error, unexpected '.', expecting end of file in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 4
+
+2020-04-07T10:00:25+00:00 CRITICAL syntax error, unexpected '.', expecting end of file in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 4
+
+2020-04-07T10:00:48+00:00 CRITICAL syntax error, unexpected '\' (T_NS_SEPARATOR), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 4
+
+2020-04-07T10:01:02+00:00 CRITICAL syntax error, unexpected '\' (T_NS_SEPARATOR), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 4
+
+2020-04-07T10:01:15+00:00 CRITICAL syntax error, unexpected ''</a>'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 4
+
+2020-04-07T10:08:49+00:00 CRITICAL syntax error, unexpected ''<?php \Elementor\Icons_Manage' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 4
+
+2020-04-07T10:08:57+00:00 CRITICAL syntax error, unexpected ''<?php \Elementor\Icons_Manage' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 4
+
+2020-04-07T10:09:16+00:00 CRITICAL syntax error, unexpected ''<?php \Elementor\Icons_Manage' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 4
+
+2020-04-07T10:09:47+00:00 CRITICAL syntax error, unexpected ''<?php \Elementor\Icons_Manage' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 4
+
+2020-04-07T10:10:13+00:00 CRITICAL syntax error, unexpected ''<?php \Elementor\Icons_Manage' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 4
+
+2020-04-07T10:11:02+00:00 CRITICAL syntax error, unexpected ''<?php '' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 4
+
+2020-04-07T10:11:21+00:00 CRITICAL syntax error, unexpected ''<?php '' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 4
+
+2020-04-07T10:11:37+00:00 CRITICAL syntax error, unexpected ''<?php '' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 4
+
+2020-04-07T10:11:47+00:00 CRITICAL syntax error, unexpected ''<?php '' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 4
+
+2020-04-07T10:12:42+00:00 CRITICAL syntax error, unexpected '\' (T_NS_SEPARATOR), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 4
+
+2020-04-07T14:13:01+00:00 CRITICAL syntax error, unexpected '$nofollow' (T_VARIABLE) in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 6
+
+2020-04-07T14:16:01+00:00 CRITICAL syntax error, unexpected '$target' (T_VARIABLE), expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 6
+
+2020-04-07T14:17:50+00:00 CRITICAL syntax error, unexpected '=', expecting ';' or ',' in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\elementor_widget\widgets\testimonial_slider\layout\layout8.php on line 6
+
+2020-04-07T14:45:49+00:00 CRITICAL Cannot redeclare lay_custom_post_type() (previously declared in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:547) in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 556
+
+2020-04-07T14:46:15+00:00 CRITICAL Cannot redeclare lay_custom_post_type() (previously declared in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:547) in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 556
+
+2020-04-07T14:46:17+00:00 CRITICAL Cannot redeclare lay_custom_post_type() (previously declared in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php:547) in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\functions.php on line 556
+
+2020-04-07T14:46:53+00:00 CRITICAL Cannot redeclare services() (previously declared in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\services.php:13) in C:\xampp\htdocs\anhhaisang\wp-content\themes\demo\inc\the_veterinarians.php on line 6
+

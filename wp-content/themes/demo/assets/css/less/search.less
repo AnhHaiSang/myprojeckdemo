@@ -1,0 +1,135 @@
+.jws-search {
+	font-family: "Barlow", Sans-serif;
+	font-size: 16px;
+	color: black;
+
+}
+span.my-icon-wrapper{
+	font-size: 25px;
+    &:hover{
+        i{
+            &:before{
+                font-weight: 900;
+                text-shadow: 0px 0px 15px #ffffff;
+                -webkit-transition: all .5s ease;
+                -moz-transition: all .5s ease;
+                -ms-transition: all .5s ease;
+                -o-transition: all .5s ease;
+                transition: all .5s ease;
+            }
+        }
+    }
+}
+a#toggle_search {
+    color: black;
+    	span{
+    		margin-right: 7px;
+    	}
+}
+#search-call {
+    visibility: hidden;
+    opacity: 0;
+    transform: rotate(-90deg);
+    transition: all 0.5s ease-in-out;
+    height: 0%;
+    width: 0%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.9);
+    z-index: 1000;
+	&.toggled {
+        height: 100%;
+        width: 100%;
+        visibility: visible;
+        opacity: 1;
+        transform: rotate(0deg);
+        pointer-events: all;
+        transition: all 0.5s ease-in-out;
+	}
+    #close{
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+        cursor: pointer;
+        color: white;
+    }
+    form#searchform {
+        position: relative;
+        top: 18%;
+        width: 80%;
+        text-align: center;
+        margin-top: 30px;
+        margin: auto;
+        .from-search-item{
+            &:hover{
+                input#s{
+                    width: 80%;
+                    color: #fff;
+                    -webkit-transition: all .5s ease-in-out;
+                    -moz-transition: all .5s ease-in-out;
+                    -ms-transition: all .5s ease-in-out;
+                    -o-transition: all .5s ease-in-out;
+                    transition: all .5s ease-in-out;
+                }
+                input#searchsubmit{
+                    width: 20%;
+                    visibility: visible;
+                    opacity: 1;
+                    -webkit-transition: all .5s ease-in-out;
+                    -moz-transition: all .5s ease-in-out;
+                    -ms-transition: all .5s ease-in-out;
+                    -o-transition: all .5s ease-in-out;
+                    transition: all .5s ease-in-out;
+                }
+            }
+            input#s {
+                padding: 10px;
+                height: 60px;
+                font-size: 17px;
+                border: none;
+                border-bottom: 1px solid #ececec;
+                float: left;
+                width: 20%;
+                -webkit-transition: all .5s ease-in-out;
+                -moz-transition: all .5s ease-in-out;
+                -ms-transition: all .5s ease-in-out;
+                -o-transition: all .5s ease-in-out;
+                transition: all .5s ease-in-out;
+                background-color: rgba(0,0,0,0);
+                margin: 0px 0;
+                border-radius: 0;
+                font: 500 20px poppins;
+            }
+            input#searchsubmit {
+                float: left;
+                width: 0%;
+                visibility: hidden;
+                opacity: 0;
+                padding: 14px;
+                background: #ddd;
+                font-size: 28px;
+                border: none;
+                cursor: pointer;
+                -webkit-transition: all .5s ease-in-out;
+                -moz-transition: all .5s ease-in-out;
+                -ms-transition: all .5s ease-in-out;
+                -o-transition: all .5s ease-in-out;
+                transition: all .5s ease-in-out;
+                &:hover{
+                    background: #38ccb9;
+                    color: #fff;
+                    -webkit-transition: all .5s ease-in-out;
+                    -moz-transition: all .5s ease-in-out;
+                    -ms-transition: all .5s ease-in-out;
+                    -o-transition: all .5s ease-in-out;
+                    transition: all .5s ease-in-out;
+                }
+            }
+        }
+    }
+}
+
+
+

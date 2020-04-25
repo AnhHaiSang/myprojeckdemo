@@ -1,0 +1,53 @@
+.contact-form {
+    .input-contact{
+    	width:100%;
+        margin: 0 0 25px 0;
+        &:hover{
+            span.wpcf7-form-control-wrap.your-email{
+                input[type=email]{
+                    border: 1px solid #333;
+                    border-top: 0;
+                    font-weight: 600;
+                    font-size: 14px;
+                    transition: 0.6s;
+                }
+            }
+        }
+    	span.wpcf7-form-control-wrap.your-email{
+    		input[type=email]{
+                 margin: 0;
+                 padding: 17px 0px 16px 23px;
+                 border-radius: 100px;
+                 border: 1px solid #ccc;
+                 border-top: 0;
+                 word-spacing: 2px;
+    		}
+    	}
+    }
+    .button-contact{
+    	width: 100%;
+        &:hover{
+            input.wpcf7-form-control.wpcf7-submit{
+                background-color: #333;
+                -webkit-transition: background 0.5s ease-in-out;
+                -moz-transition: background 0.5s ease-in-out;
+                -ms-transition: background 0.5s ease-in-out;
+                -o-transition: background 0.5s ease-in-out;
+                transition: background 0.5s ease-in-out;
+            }
+        }
+    	input.wpcf7-form-control.wpcf7-submit{
+    		padding: 17px 4px 17px 0px;
+            text-transform: uppercase;
+            color: white;
+            background-color: #1FBA59;
+            border: none;
+            font-size: 14px;
+            font-weight: bold;
+            width: 100%;
+            border-radius: 100px;
+            letter-spacing: -0.5px;
+
+    	}
+    }
+}

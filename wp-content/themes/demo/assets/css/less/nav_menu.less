@@ -1,0 +1,54 @@
+ nav.elementor-nav-menu--main.elementor-nav-menu__container.elementor-nav-menu--layout-horizontal.e--pointer-none{
+    ul.elementor-nav-menu{
+        li.menu-item.menu-item-type-post_type.menu-item-object-page{
+            &:hover{
+                a.elementor-item{
+                    i{
+                        opacity: 1;
+                        -webkit-transition: all .5s ease;
+                        -moz-transition: all .5s ease;
+                        -ms-transition: all .5s ease;
+                        -o-transition: all .5s ease;
+                        transition: all .5s ease;
+                    }
+                }
+            }
+            a.elementor-item{
+                &.elementor-item-active{
+                    i{
+                        opacity: 1;
+                        -webkit-transition: all .5s ease;
+                        -moz-transition: all .5s ease;
+                        -ms-transition: all .5s ease;
+                        -o-transition: all .5s ease;
+                        transition: all .5s ease;
+                    }
+                }
+                display: flex;
+                flex-flow: column-reverse;
+                i{
+                    opacity: 0;
+                    -webkit-transition: all .5s ease;
+                    -moz-transition: all .5s ease;
+                    -ms-transition: all .5s ease;
+                    -o-transition: all .5s ease;
+                    transition: all .5s ease;
+                    font-size: 28px;
+                    line-height: 40px;
+                }
+            }
+            .sub-menu.sm-nowrap{
+                li.menu-item.menu-item-type-post_type{
+                    &:hover{
+
+                    }
+                    a.elementor-sub-item{
+                        &:hover{
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
