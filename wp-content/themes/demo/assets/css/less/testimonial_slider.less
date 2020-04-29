@@ -87,7 +87,6 @@
 											a.link-video{
 												animation: pulse 1s linear infinite;
 											}
-
 										}
 										a.link-video{
 											border: 2px solid #fff;
@@ -277,21 +276,42 @@
 									display: flex;
 									justify-content: center;
 									align-items: center;
-									
 									&:hover{
-										a.link-video{
-											animation: pulse 1.5s ease-in-out infinite;
+										span.curl{
+											opacity: 1;
+											width: 150px;
+											height: 150px;
 											-webkit-transition: all .5s ease-in-out;
 											-moz-transition: all .5s ease-in-out;
 											-ms-transition: all .5s ease-in-out;
 											-o-transition: all .5s ease-in-out;
 											transition: all .5s ease-in-out;
+											animation: pulse 1s linear infinite;
+										}
+										a.link-video{
+											animation: pulse 1s linear infinite;
 										}
 									}
 									a.link-video{
 										border: 2px solid #fff;
 										border-radius: 100%;
 										z-index: 12;
+										-webkit-transition: all .5s ease-in-out;
+										-moz-transition: all .5s ease-in-out;
+										-ms-transition: all .5s ease-in-out;
+										-o-transition: all .5s ease-in-out;
+										transition: all .5s ease-in-out;
+
+									}
+									span.curl {
+										display: inline-block;
+										opacity: 0;
+										width: 0px;
+										height: 0px;
+										z-index: 5;
+										background-color: rgba(255,255,255,0.5);
+										position: absolute;
+										border-radius: 100%;
 										-webkit-transition: all .5s ease-in-out;
 										-moz-transition: all .5s ease-in-out;
 										-ms-transition: all .5s ease-in-out;

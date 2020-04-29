@@ -261,6 +261,21 @@
                                                                 left: -5px;
                                                                 border-radius: 100px;
                                                                 z-index: -1;
+                                                                -webkit-transition: all .3s ease-in-out;
+                                                                -moz-transition: all .3s ease-in-out;
+                                                                -ms-transition: all .3s ease-in-out;
+                                                                -o-transition: all .3s ease-in-out;
+                                                                transition: all .3s ease-in-out;
+                                                            }
+                                                            &:hover{
+                                                                &:before{
+                                                                    animation: pulse2 1s linear infinite;
+                                                                    -webkit-transition: all .3s ease-in-out;
+                                                                    -moz-transition: all .3s ease-in-out;
+                                                                    -ms-transition: all .3s ease-in-out;
+                                                                    -o-transition: all .3s ease-in-out;
+                                                                    transition: all .3s ease-in-out;
+                                                                }
                                                             }
                                                         }
                                                     }
@@ -1367,14 +1382,14 @@
         }
     }
     
-// @keyframes beat{ hiệu ứng tim đập
-//     to { transform: scale(1.4); }
-// }
-@keyframes pulse {
+@keyframes beat{ hiệu ứng tim đập
+    to { transform: scale(1.4); }
+}
+@keyframes pulse2 {
   0% {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
   }
 
   50% {
@@ -1384,8 +1399,8 @@
   }
 
   100% {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
   }
 }
