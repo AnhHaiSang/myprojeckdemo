@@ -126,9 +126,9 @@ var jwsThemeModule;
       $('.testimonials_slider').slick({
           slidesToShow: 1,
           slidesToScroll: 1,
-          fade: false,
+          fade: true,
           dots: false,
-          asNavFor: '.slider-nav-thumbnails',
+          // asNavFor: '.slider-nav-thumbnails',
          });
       $('.slider-nav-thumbnails').slick({
         slidesToShow: 4,
@@ -169,9 +169,23 @@ var jwsThemeModule;
         }
       })
     };
+    function updateCart(){
+      $('form.woocommerce-cart-form').on( 'click', 'button.plus, button.minus', function() {
+        console.log('asd');
+        var qty = $( this ).closest( 'form.cart, form.woocommerce-cart-form' ).find( '.qty' );
+        var val   = parseFloat(qty.val());
+        var max = parseFloat(qty.attr( 'max' ));
+        var min = parseFloat(qty.attr( 'min' ));
+        // var update_cart = $( this ).closest( 'form.woocommerce-cart-form' ).find( 'button.button' );
+        if ( val !== max || val !== min ) {
+         $('form.woocommerce-cart-form').find('button[name="update_cart"]').removeAttr( 'disabled' )
+       }
+         
+      });
+    };
   quantity();
   jQuery(document.body).on('removed_from_cart updated_cart_totals', function () {
-   console.log('dsa');
+   updateCart();
  });
 }); 
 })(jQuery);

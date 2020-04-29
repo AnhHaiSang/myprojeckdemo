@@ -1011,7 +1011,7 @@ class Testimonial_Slider extends Widget_Base {
             		      $url = $item['list_url']['url'];
                           $target = $item['list_url']['is_external'] ? ' target="_blank"' : '';
                           $nofollow = $item['list_url']['nofollow'] ? ' rel="nofollow"' : ''; 
-                          ?>
+                          ?> 
             				<div class="jws-slick-slider">
                                     <?php  include( 'layout/'.$settings['slider_layouts'].'.php' ); ?>   
                             </div>
