@@ -29,6 +29,6 @@ echo apply_filters( 'woocommerce_loop_add_to_cart_link', // WPCS: XSS ok.
 		esc_attr( isset( $args['class'] ) ? $args['class'] : 'button' ),
 		isset( $args['attributes'] ) ? wc_implode_html_attributes( $args['attributes'] ) : '',
 		// ----------------thẻ span có nut button add to cart-------------
-		'<span class="flaticon-shopping-bag-2"></span>',
+		'<span class="icons-c-u icon-s-c-u007-shopping-bag-2"></span>',
 	),
 $product, $args );

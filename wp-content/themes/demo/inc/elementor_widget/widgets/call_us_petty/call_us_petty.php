@@ -141,7 +141,7 @@ class Call_us_petty extends Widget_Base {
                     'value' => \Elementor\Scheme_Color::COLOR_1,
                 ],
                 'selectors' => [
-                    '{{WRAPPER}} .my-icon-wrapper>i' => 'color: {{VALUE}}',
+                    '{{WRAPPER}} .call-us-icon-wrapper>i' => 'color: {{VALUE}}',
                 ],
             ]
         );
@@ -167,7 +167,7 @@ class Call_us_petty extends Widget_Base {
                     'size' => 25,
                 ],
                 'selectors' => [
-                    '{{WRAPPER}} .my-icon-wrapper' => 'font-size: {{SIZE}}{{UNIT}};',
+                    '{{WRAPPER}} .call-us-icon-wrapper' => 'font-size: {{SIZE}}{{UNIT}};',
                 ],
             ]
         );
@@ -407,7 +407,7 @@ class Call_us_petty extends Widget_Base {
             <div class="call-us">
                 <button type="button" class="button call-us">
                     <?php echo '<span class="call-us-title">' . $settings['widget_title2'] . '</span>'; ?>
-                    <span class="my-icon-wrapper">
+                    <span class="call-us-icon-wrapper">
                         <?php 
                         \Elementor\Icons_Manager::render_icon( $settings['icon'], [ 'aria-hidden' => 'true' ] );
                         ?>

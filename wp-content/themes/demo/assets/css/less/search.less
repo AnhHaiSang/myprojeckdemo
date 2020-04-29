@@ -2,20 +2,29 @@
 	font-family: "Barlow", Sans-serif;
 	font-size: 16px;
 	color: black;
-
-}
-span.my-icon-wrapper{
-	font-size: 25px;
-    &:hover{
+    span.my-icon-wrapper{
+    	font-size: 25px;
         i{
             &:before{
-                font-weight: 900;
-                text-shadow: 0px 0px 15px #ffffff;
+                font-weight: 500;
                 -webkit-transition: all .5s ease;
                 -moz-transition: all .5s ease;
                 -ms-transition: all .5s ease;
                 -o-transition: all .5s ease;
                 transition: all .5s ease;
+            }
+        }
+        &:hover{
+            i{
+                &:before{
+                    font-weight: 900;
+                    text-shadow: 0px 0px 15px #ffffff;
+                    -webkit-transition: all .5s ease;
+                    -moz-transition: all .5s ease;
+                    -ms-transition: all .5s ease;
+                    -o-transition: all .5s ease;
+                    transition: all .5s ease;
+                }
             }
         }
     }
@@ -92,6 +101,7 @@ a#toggle_search {
                 border-bottom: 1px solid #ececec;
                 float: left;
                 width: 20%;
+                color: #fff;
                 -webkit-transition: all .5s ease-in-out;
                 -moz-transition: all .5s ease-in-out;
                 -ms-transition: all .5s ease-in-out;
@@ -101,6 +111,9 @@ a#toggle_search {
                 margin: 0px 0;
                 border-radius: 0;
                 font: 500 20px poppins;
+                &:focus{
+                   width: 80%; 
+                }
             }
             input#searchsubmit {
                 float: left;

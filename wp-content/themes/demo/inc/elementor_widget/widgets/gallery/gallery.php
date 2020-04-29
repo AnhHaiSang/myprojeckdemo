@@ -316,12 +316,8 @@ class Gallery extends Widget_Base {
                   	</div>
                   	<div class="gallery_content <?php echo ' gallery_layouts_'.$settings['gallery_layouts'] .''; ?>">
                   		<ul class="list_content" id="gallery">  
-	            		 <?php 
-	            		 	$the_query = new \WP_Query( $args );
-	                        ?>
+	            		 	<?php $the_query = new \WP_Query( $args );?>
 	                        <?php  include( 'layout/'.$settings['gallery_layouts'].'.php' ); ?>
-	                        <?php 
-	            		   ?>
 	                  	</ul>
                   	</div>
                 </div>

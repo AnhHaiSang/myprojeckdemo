@@ -1,5 +1,5 @@
 <div class="row row-eq-height">
-    <div class="col-xl-8 col-lg-7 col-12">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8">
         <div class="slider_content">
             <p class="testimonials_icon"><?php \Elementor\Icons_Manager::render_icon( $settings['icon'], [ 'aria-hidden' => 'true' ] ); ?></p>
             <h2 class="testimonials_title"><?php echo wp_kses_post($item['title']); ?></h2>
@@ -12,7 +12,7 @@
                     <div class="custom_dots"></div><?php endif; ?>
         </div>
     </div>
-    <div class="col-xl-4 col-lg-5 col-12">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
         <?php echo \Elementor\Group_Control_Image_Size::get_attachment_image_html( $item ); ?>
     </div>
 </div> 

@@ -36,7 +36,7 @@
 .gallery_wrap {
 	&.layout1{
 		.wrapper-categories-petty{
-			margin: 30px 0 30px 0;
+			margin: 30px 0;
 			ul.lists-cat{
 				display: flex;
 				justify-content: center;
@@ -57,14 +57,19 @@
 		}
 		.gallery_content{
 			&.gallery_layouts_layout1{
+				margin: 62px 0 10px 0;
 				ul#gallery{
 					display: flex;
 					justify-content: center;
 					align-items: center;
 					flex-wrap: wrap;
 					li.gallerys{
-						width: 31%;
-						margin: 5px 10px;
+						width: 31.5%;
+						display: inline-block;
+						margin: 0 10px 20px 10px;
+						&.box-between{
+							
+						}
 						&:hover{
 							.post_thumbnail {
 								.ellipse-2 {
@@ -146,7 +151,6 @@
 						}
 					}
 				}
-				
 			}
 		}
 	}

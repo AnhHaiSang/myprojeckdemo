@@ -26,8 +26,6 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 ?>
 <li <?php wc_product_class( '', $product ); ?>>
 	<?php
-
-
 	/**
 	 * Hook: woocommerce_before_shop_loop_item_title.
 	 *

@@ -1,11 +1,13 @@
 <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
     <li class="container-post">
         <div class="post_thumbnail">
-            <?php
-            $attach_id = get_post_thumbnail_id();
-            $img = jws_getImageBySize(array('attach_id' => $attach_id, 'thumb_size' => "875x405", 'class' => 'attachment-large wp-post-image'));
-            echo wp_kses_post($img['thumbnail']);
-            ?>
+            <div class="wrapper-image">
+                <?php
+                    $attach_id = get_post_thumbnail_id();
+                    $img = jws_getImageBySize(array('attach_id' => $attach_id, 'thumb_size' => "875x405", 'class' => 'attachment-large wp-post-image'));
+                    echo wp_kses_post($img['thumbnail']);
+                ?>
+            </div>
         </div>
         <div class="content">
             <h2 class="post-title" >

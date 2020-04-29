@@ -6,11 +6,11 @@ section.elementor-element-e06dce4{
 					button.button.call-us{
 						cursor: pointer;
 						position: relative;
-						span.call-us-title, span.my-icon-wrapper, span.phone-number{
+						span.call-us-title, span.call-us-icon-wrapper, span.phone-number{
 							z-index: 10;
 							position: relative;
 						}
-						span.my-icon-wrapper{
+						span.call-us-icon-wrapper{
 							margin: 0;
 						}
 						&:hover{
@@ -51,13 +51,18 @@ section.elementor-element-e06dce4{
 			.elementor-widget-container{
 				.ellipse_play{
 					a.button.ellipse_play{
-						display: inline-block;
+						display: inline-flex;
 						cursor: pointer;
+						justify-content: center;
+						align-items: center;
 						&:hover{
 							background-color: #031B18;
 							-webkit-animation: tada 1s linear infinite;
 							animation: tada 1s linear infinite;
-							span.my-icon-wrapper{
+							span.play-icon-wrapper{
+								display: flex;
+								justify-content: center;
+								align-items: center;
 								i{
 									color: #fff;
 								}

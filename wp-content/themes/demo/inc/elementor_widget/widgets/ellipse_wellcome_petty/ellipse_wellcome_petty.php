@@ -119,7 +119,7 @@ class Ellipse_wellcome_petty extends Widget_Base {
                     'value' => \Elementor\Scheme_Color::COLOR_1,
                 ],
                 'selectors' => [
-                    '{{WRAPPER}} .my-icon-wrapper i.fas' => 'color: {{VALUE}}',
+                    '{{WRAPPER}} .play-icon-wrapper>i' => 'color: {{VALUE}}',
                 ],
             ]
         );
@@ -148,34 +148,56 @@ class Ellipse_wellcome_petty extends Widget_Base {
                 'selector' => '{{WRAPPER}} a.button.ellipse_play',
             ]
         );
-        $this->add_responsive_control(
-            'title_margin',
+        $this->add_control(
+            'width_a_link',
             [
-                'label' => __( 'Margin', 'plugin-name' ),
-                'type' => \Elementor\Controls_Manager::DIMENSIONS,
-                'size_units' => [ 'px', 'em', '%' ],
+                'label' => __( 'Width', 'plugin-domain' ),
+                'type' => Controls_Manager::SLIDER,
+                'size_units' => [ 'px', '%' ],
+                'range' => [
+                    'px' => [
+                        'min' => 0,
+                        'max' => 1000,
+                        'step' => 1,
+                    ],
+                    '%' => [
+                        'min' => 0,
+                        'max' => 100,
+                    ],
+                ],
+                'default' => [
+                    'unit' => 'px',
+                    'size' => 50,
+                ],
                 'selectors' => [
-                    '{{WRAPPER}} a.button.ellipse_play' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+                    '{{WRAPPER}} a.button.ellipse_play' => 'width: {{SIZE}}{{UNIT}};',
                 ],
             ]
         );
-        $this->add_responsive_control(
-            'title_padding',
+        $this->add_control(
+            'height_a_link',
             [
-                'label' => __( 'Padding', 'plugin-name' ),
-                'type' => \Elementor\Controls_Manager::DIMENSIONS,
-                'size_units' => [ 'px', 'em', '%' ],
-                'selectors' => [
-                    '{{WRAPPER}} a.button.ellipse_play' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+                'label' => __( 'Height', 'plugin-domain' ),
+                'type' => Controls_Manager::SLIDER,
+                'size_units' => [ 'px', '%' ],
+                'range' => [
+                    'px' => [
+                        'min' => 0,
+                        'max' => 1000,
+                        'step' => 1,
+                    ],
+                    '%' => [
+                        'min' => 0,
+                        'max' => 100,
+                    ],
                 ],
-            ]
-        );
-        $this->add_group_control(
-            Group_Control_Border::get_type(),
-            [
-                'name' => 'radius',
-                'label' => __( 'Border radius', 'plugin-domain' ),
-                'selector' => '{{WRAPPER}} a.button.ellipse_play',
+                'default' => [
+                    'unit' => 'px',
+                    'size' => 50,
+                ],
+                'selectors' => [
+                    '{{WRAPPER}} a.button.ellipse_play' => 'height: {{SIZE}}{{UNIT}};',
+                ],
             ]
         );
         
@@ -263,7 +285,7 @@ class Ellipse_wellcome_petty extends Widget_Base {
         ?>
             <div class="ellipse_play">
                 <a href="<?php echo $settings['website_link_videos']['url'] ?>" <?php echo $target ?> <?php echo $nofollow ?>  class="button ellipse_play">
-                    <span class="my-icon-wrapper">
+                    <span class="play-icon-wrapper">
                         <?php \Elementor\Icons_Manager::render_icon( $settings['icon'], [ 'aria-hidden' => 'true' ] );?>
                     </span>
                 </a>

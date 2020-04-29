@@ -2,8 +2,11 @@
 	.tags-container{
 		&.layout1{
 			ul.tag-lists {
+				list-style: none;
 				display: flex;
-				li.list-item{
+				margin: 0 0 0 0;
+				padding: 0 0 0 0;
+				li.list-item {
 					border: 1px solid #dedede;
 					margin: 0 15px 0 0;
 					padding: 0 0 0 0;
@@ -15,11 +18,20 @@
 					cursor: pointer;
 					font-size: 13px;
 					font-weight: 400;
+					-webkit-transition: all .5s ease-in-out;
+					-moz-transition: all .5s ease-in-out;
+					-ms-transition: all .5s ease-in-out;
+					-o-transition: all .5s ease-in-out;
+					transition: all .5s ease-in-out;
 					&:hover{
 						background-color: #10b64e;
 						border: 1px solid #10b64e;
 						color: #fff;
-						transition: 0.5s;
+						-webkit-transition: all .5s ease-in-out;
+						-moz-transition: all .5s ease-in-out;
+						-ms-transition: all .5s ease-in-out;
+						-o-transition: all .5s ease-in-out;
+						transition: all .5s ease-in-out;
 					}
 				}
 			}

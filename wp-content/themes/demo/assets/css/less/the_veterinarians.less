@@ -15,36 +15,44 @@
 			&:hover{
 				.content{
 					.description{
-						height: 0px;
 						visibility: hidden;
-						transition: all 0.3s ease;
+						opacity: 0;
+						-webkit-transition: all .3s ease-in-out;
+						-moz-transition: all .3s ease-in-out;
+						-ms-transition: all .3s ease-in-out;
+						-o-transition: all .3s ease-in-out;
+						transition: all .3s ease-in-out;
 					}
 					.appointment{
 						opacity: 1;
-						transition: all 0.5s ease;
-						-webkit-transform: translateX(0);
-						-o-transform: translateX(0);
-						-ms-transform: translateX(0);
-						-moz-transform: translateX(0);
-						transform: translateX(0);
+						-webkit-transition: all .5s ease-in-out;
+						-moz-transition: all .5s ease-in-out;
+						-ms-transition: all .5s ease-in-out;
+						-o-transition: all .5s ease-in-out;
+						transition: all .5s ease-in-out;
+						-webkit-transform: translateY(20px);
+						-o-transform: translateY(20px);
+						-ms-transform: translateY(20px);
+						-moz-transform: translateY(20px);
+						transform: translateY(20px);
 						visibility: visible;
 					}
 				}
 				.the-veterinarians-thumbnail{
 					.contact-the-veterinarians{
 						opacity: 1;
-						-webkit-transition: all 0.5s ease-in;
-						-moz-transition: all 0.5s ease-in;
-						-ms-transition: all 0.5s ease-in;
-						-o-transition: all 0.5s ease-in;
-						transition: all 0.5s ease-in;
+						-webkit-transition: all .5s ease-in-out;
+						-moz-transition: all .5s ease-in-out;
+						-ms-transition: all .5s ease-in-out;
+						-o-transition: all .5s ease-in-out;
+						transition: all .5s ease-in-out;
 						background-color: rgba(0,0,0,0.5);
 						.wrapp-the-veterinarians-icon{
-							-webkit-transition: all 0.5s ease-in;
-							-moz-transition: all 0.5s ease-in;
-							-ms-transition: all 0.5s ease-in;
-							-o-transition: all 0.5s ease-in;
-							transition: all 0.5s ease-in;
+							-webkit-transition: all .5s ease-in-out;
+							-moz-transition: all .5s ease-in-out;
+							-ms-transition: all .5s ease-in-out;
+							-o-transition: all .5s ease-in-out;
+							transition: all .5s ease-in-out;
 							-webkit-transform: translateY(0);
 							-o-transform: translateY(0);
 							-ms-transform: translateY(0);
@@ -56,16 +64,36 @@
 				}
 			}
 			.content{
+				position: relative;
 				.appointment{
 					opacity: 0;
-					transform: translateY(50px);
+					transform: translateY(0px);
 					visibility: hidden;
 					-webkit-transition: all 0.5s ease-in;
 					-moz-transition: all 0.5s ease-in;
 					-ms-transition: all 0.5s ease-in;
 					-o-transition: all 0.5s ease-in;
 					transition: all 0.5s ease-in;
+					position: absolute;
+					top: 0;
+					left: 0;
+					display: flex;
+					justify-content: center;
+					width: 100%;
+					height: 100%;
+					button.button-appointment{
+						position: absolute;
+					}
 				}
+				.description{
+						visibility: visible;
+						opacity: 1;
+						-webkit-transition: all .3s ease-in-out;
+						-moz-transition: all .3s ease-in-out;
+						-ms-transition: all .3s ease-in-out;
+						-o-transition: all .3s ease-in-out;
+						transition: all .3s ease-in-out;
+					}
 			}
 			.the-veterinarians-thumbnail{
 				position: relative;

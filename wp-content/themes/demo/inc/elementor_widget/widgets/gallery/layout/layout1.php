@@ -1,14 +1,15 @@
 <?php 
-$i = 1;
-while ( $the_query->have_posts() ) : $the_query->the_post();
-	$position = ($i == 2 || $i == 5 || $i == 8 || $i == 11) ? esc_attr('box-between') : 'box';
-	if( !empty($categories) ){
-		$item_cats = get_the_terms(get_the_ID(), 'category');
-		$get_item = '';
-		foreach ( $item_cats as $category )  {
-			$get_item .= ' ' . $category->slug;
-		}};
- ?>
+	$i = 1;
+	while ( $the_query->have_posts() ) : $the_query->the_post();
+		$position = ($i == 2 || $i == 5 || $i == 8 || $i == 11) ? esc_attr('box-between') : 'box';
+		if( !empty($categories) ){
+			$item_cats = get_the_terms(get_the_ID(), 'category');
+			$get_item = '';
+			foreach ( $item_cats as $category )  {
+				$get_item .= ' ' . $category->slug;
+		}
+	};
+?>
 	<li class="gallerys <?php echo $position ?><?php echo $get_item; ?>">
 	    <div class="post_thumbnail">
 	    	<div class="wrapper-image">

@@ -121,20 +121,7 @@ class Posts_aside extends Widget_Base {
                 ],
             ]
         );
-        $this->add_control(
-            'title_color',
-            [
-                'label' => __( 'Title Color', 'plugin-domain' ),
-                'type' => \Elementor\Controls_Manager::COLOR,
-                'scheme' => [
-                    'type' => \Elementor\Scheme_Color::get_type(),
-                    'value' => \Elementor\Scheme_Color::COLOR_1,
-                ],
-                'selectors' => [
-                    '{{WRAPPER}} .entry-title' => 'color: {{VALUE}}',
-                ],
-            ]
-        );
+        
 
         $this->add_control( //option chỉ định category hiển thị theo cái gì (ví dụ: ở đây hiển thị theo default)
             'orderby',
@@ -172,38 +159,77 @@ class Posts_aside extends Widget_Base {
                 'max' => 100,
             ]
         );
-        $this->add_group_control(
-            Group_Control_Typography::get_type(),
+        
+        $this->end_controls_section();
+        //=====================style===================
+        $this->start_controls_section(
+            'content_section_title',
             [
-                'name' => 'content_typography',
-                'label' => __( 'Typography Title', 'plugin-domain' ),
-                'scheme' => Scheme_Typography::TYPOGRAPHY_1,
-                'selector' => '{{WRAPPER}} .entry-title',
+                'label' => __( 'Title', 'plugin-name' ),
+                'tab' => \Elementor\Controls_Manager::TAB_CONTENT,
             ]
         );
-        $this->add_group_control(
-            Group_Control_Typography::get_type(),
-            [
-                'name' => 'content_typography_2',
-                'label' => __( 'Typography Post Description', 'plugin-domain' ),
-                'scheme' => Scheme_Typography::TYPOGRAPHY_1,
-                'selector' => '{{WRAPPER}} .entry-meta',
-            ]
-        );
+
         $this->add_control(
-            'title_color2',
+            'title_color_title',
             [
-                'label' => __( 'Time and Comment Color', 'plugin-domain' ),
+                'label' => __( 'Title Color', 'plugin-domain' ),
                 'type' => \Elementor\Controls_Manager::COLOR,
                 'scheme' => [
                     'type' => \Elementor\Scheme_Color::get_type(),
                     'value' => \Elementor\Scheme_Color::COLOR_1,
                 ],
                 'selectors' => [
-                    '{{WRAPPER}} .entry-meta, .mgct, time' => 'color: {{VALUE}}',
+                    '{{WRAPPER}} .post-title>a' => 'color: {{VALUE}}',
                 ],
             ]
         );
+
+        $this->add_group_control(
+            Group_Control_Typography::get_type(),
+            [
+                'name' => 'content_typography_title',
+                'label' => __( 'Typography Title', 'plugin-domain' ),
+                'scheme' => Scheme_Typography::TYPOGRAPHY_1,
+                'selector' => '{{WRAPPER}} .post-title',
+            ]
+        );
+
+        $this->end_controls_section();
+        //=====================style===================
+        $this->start_controls_section(
+            'content_section_des',
+            [
+                'label' => __( 'Description', 'plugin-name' ),
+                'tab' => \Elementor\Controls_Manager::TAB_CONTENT,
+            ]
+        );
+
+        $this->add_control(
+            'title_color_des',
+            [
+                'label' => __( 'Text Color', 'plugin-domain' ),
+                'type' => \Elementor\Controls_Manager::COLOR,
+                'scheme' => [
+                    'type' => \Elementor\Scheme_Color::get_type(),
+                    'value' => \Elementor\Scheme_Color::COLOR_1,
+                ],
+                'selectors' => [
+                    '{{WRAPPER}} .date-post' => 'color: {{VALUE}}',
+                ],
+            ]
+        );
+        
+        $this->add_group_control(
+            Group_Control_Typography::get_type(),
+            [
+                'name' => 'content_typography_des',
+                'label' => __( 'Typography Title', 'plugin-domain' ),
+                'scheme' => Scheme_Typography::TYPOGRAPHY_1,
+                'selector' => '{{WRAPPER}} .date-post',
+            ]
+        );
+
         $this->end_controls_section();
 
     }

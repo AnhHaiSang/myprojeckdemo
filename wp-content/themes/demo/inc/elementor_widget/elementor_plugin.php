@@ -74,6 +74,7 @@ class Plugin {
         require_once (JWS_ABS_PATH . '/inc/elementor_widget/widgets/infomation/infomation.php');
         require_once (JWS_ABS_PATH . '/inc/elementor_widget/widgets/logo_under_title/logo_under_title.php');
         require_once (JWS_ABS_PATH . '/inc/elementor_widget/widgets/lists_page/lists_page.php');
+        require_once (JWS_ABS_PATH . '/inc/elementor_widget/widgets/category_product/category_product.php');
         
 
 
@@ -103,6 +104,7 @@ class Plugin {
         \Elementor\Plugin::instance()->widgets_manager->register_widget_type(new Elementor\Infomation());
         \Elementor\Plugin::instance()->widgets_manager->register_widget_type(new Elementor\Logo_Under_Title());
         \Elementor\Plugin::instance()->widgets_manager->register_widget_type(new Elementor\Lists_Page());
+        \Elementor\Plugin::instance()->widgets_manager->register_widget_type(new Elementor\Category_Product());
         \Elementor\Plugin::instance()->widgets_manager->register_widget_type(new Product_Atribute_Filter());
         \Elementor\Plugin::instance()->widgets_manager->register_widget_type(new Product_Price_Filter());
         

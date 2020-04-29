@@ -29,14 +29,28 @@
                                 background-repeat: no-repeat;
                                 padding: 16px 20px 11px 22px;
                                 font: 400 14px poppins;
+                                -webkit-transition: all .5s ease-in-out;
+                                -moz-transition: all .5s ease-in-out;
+                                -ms-transition: all .5s ease-in-out;
+                                -o-transition: all .5s ease-in-out;
+                                transition: all .5s ease-in-out;
                                 &:hover{
-                                    border: 1px solid #38ccb9;
+                                    border: 1px solid #333333;
+                                    background-position: 270px 14px;
                                     text-shadow: 0 0 10px #7a7a7a;
-                                    -webkit-transition: all .5s ease;
-                                       -moz-transition: all .5s ease;
-                                        -ms-transition: all .5s ease;
-                                         -o-transition: all .5s ease;
-                                            transition: all .5s ease;
+                                    -webkit-transition: all .5s ease-in-out;
+                                    -moz-transition: all .5s ease-in-out;
+                                    -ms-transition: all .5s ease-in-out;
+                                    -o-transition: all .5s ease-in-out;
+                                    transition: all .5s ease-in-out;
+                                }
+                                &:focus{
+                                    background-position: 270px 14px;
+                                    -webkit-transition: all .5s ease-in-out;
+                                    -moz-transition: all .5s ease-in-out;
+                                    -ms-transition: all .5s ease-in-out;
+                                    -o-transition: all .5s ease-in-out;
+                                    transition: all .5s ease-in-out;
                                 }
                             }
                             button.search-submit{
@@ -54,32 +68,38 @@
                                             padding: 0 0px;
                                             margin: 0;
                                             li.items{
-                                                    margin: 0 0 7px 0;
+                                                    margin: 0 0 2px 0;
                                                     padding: 0px;
                                                     &.items:hover{
                                                         .cat-name{
                                                             a.woocommerce.list-category{
                                                                 color: #c0a576;
-                                                                -webkit-transition: all .5s ease;
-                                                                -moz-transition: all .5s ease;
-                                                                -ms-transition: all .5s ease;
-                                                                -o-transition: all .5s ease;
-                                                                transition: all .5s ease;
+                                                                -webkit-transition: all .5s ease-in-out;
+                                                                -moz-transition: all .5s ease-in-out;
+                                                                -ms-transition: all .5s ease-in-out;
+                                                                -o-transition: all .5s ease-in-out;
+                                                                transition: all .5s ease-in-out;
                                                                 span.checked{
-                                                                    font-size: 10px;
-                                                                    -webkit-transition: all .5s ease;
-                                                                    -moz-transition: all .5s ease;
-                                                                    -ms-transition: all .5s ease;
-                                                                    -o-transition: all .5s ease;
-                                                                    transition: all .5s ease;
+                                                                    margin: 0 10px 0 0px;
+                                                                    visibility: visible;
+                                                                    -webkit-transition: visibility .2s  ease-in-out;
+                                                                    -moz-transition: visibility .2s  ease-in-out;
+                                                                    -ms-transition: visibility .2s  ease-in-out;
+                                                                    -o-transition: visibility .2s  ease-in-out;
+                                                                    transition: visibility .2s  ease-in-out;
+                                                                    -webkit-transition: margin .4s  ease-in-out;
+                                                                    -moz-transition: margin .4s  ease-in-out;
+                                                                    -ms-transition: margin .4s  ease-in-out;
+                                                                    -o-transition: margin .4s  ease-in-out;
+                                                                    transition: margin .4s  ease-in-out;
                                                                 }
                                                                 span.count {
                                                                     color: #c0a576;
-                                                                    -webkit-transition: all .5s ease;
-                                                                    -moz-transition: all .5s ease;
-                                                                    -ms-transition: all .5s ease;
-                                                                    -o-transition: all .5s ease;
-                                                                    transition: all .5s ease;
+                                                                    -webkit-transition: all .5s ease-in-out;
+                                                                    -moz-transition: all .5s ease-in-out;
+                                                                    -ms-transition: all .5s ease-in-out;
+                                                                    -o-transition: all .5s ease-in-out;
+                                                                    transition: all .5s ease-in-out;
                                                                 }
                                                             }
                                                         }
@@ -87,13 +107,27 @@
                                                     .cat-name {
                                                         margin: 0;
                                                         a.woocommerce.list-category{
+                                                            transform: translateX(0);
+                                                            visibility: visible;
+                                                            -webkit-transition: all .5s ease-in-out;
+                                                            -moz-transition: all .5s ease-in-out;
+                                                            -ms-transition: all .5s ease-in-out;
+                                                            -o-transition: all .5s ease-in-out;
+                                                            transition: all .5s ease-in-out;
                                                            span.count {
                                                                 float: right;
                                                                 color: #7A7A7A;
+                                                                font-weight: 400;
                                                             }
                                                             span.checked {
-                                                                margin: 0 10px 0 0;
-                                                                font-size: 0px;
+                                                                -webkit-transition: all .2s  ease-in-out;
+                                                                -moz-transition: all .2s  ease-in-out;
+                                                                -ms-transition: all .2s  ease-in-out;
+                                                                -o-transition: all .2s  ease-in-out;
+                                                                transition: all .2s  ease-in-out;
+                                                                margin: 0 10px 0 -20px;
+                                                                font-size: 10px;
+                                                                visibility: hidden;
                                                             }
                                                         }
                                                     }
@@ -217,6 +251,7 @@
                                                             position: absolute;
                                                             top: -4px;
                                                             outline: none;
+                                                            cursor: pointer;
                                                             &:before{
                                                                 content: '';
                                                                 position: absolute;
@@ -239,7 +274,7 @@
                     }
                 }
                 .col-xl-9-custom-width{
-                    margin-bottom: 80px;
+                    margin-bottom: 50px;
                     -ms-flex: 0 0 74.2%;
                     flex: 0 0 75%;
                     max-width: 75%;
@@ -256,15 +291,25 @@
                                 padding: 10px 21px;
                                 position: relative;
                                 display: inline-block;
+                                -webkit-transition: all .5s ease-in-out;
+                                -moz-transition: all .5s ease-in-out;
+                                -ms-transition: all .5s ease-in-out;
+                                -o-transition: all .5s ease-in-out;
+                                transition: all .5s ease-in-out;
                                  &:hover{
                                     border: 1px solid #38ccb9;
+                                    -webkit-transition: all .5s ease-in-out;
+                                    -moz-transition: all .5s ease-in-out;
+                                    -ms-transition: all .5s ease-in-out;
+                                    -o-transition: all .5s ease-in-out;
+                                    transition: all .5s ease-in-out;
                                     p.woocommerce-result-count{
                                         text-shadow: 0 0 10px #7a7a7a;
-                                        -webkit-transition: all .5s ease;
-                                        -moz-transition: all .5s ease;
-                                        -ms-transition: all .5s ease;
-                                        -o-transition: all .5s ease;
-                                        transition: all .5s ease;
+                                        -webkit-transition: all .5s ease-in-out;
+                                        -moz-transition: all .5s ease-in-out;
+                                        -ms-transition: all .5s ease-in-out;
+                                        -o-transition: all .5s ease-in-out;
+                                        transition: all .5s ease-in-out;
                                     }
                                 }
                                 p.woocommerce-result-count{
@@ -274,6 +319,11 @@
                                     font-size: 14px;
                                     letter-spacing: -0.5px;
                                     word-spacing: 2px;
+                                    -webkit-transition: all .5s ease-in-out;
+                                    -moz-transition: all .5s ease-in-out;
+                                    -ms-transition: all .5s ease-in-out;
+                                    -o-transition: all .5s ease-in-out;
+                                    transition: all .5s ease-in-out;
                                     span.count {
                                         color: #c0a576;
                                     }
@@ -301,12 +351,21 @@
                                    padding: 16px 0px 16px 21px;
                                    letter-spacing: 0.6px;
                                    width: 100%;
-                                   &.orderby:hover{
+                                   -webkit-transition: all .5s ease-in-out;
+                                   -moz-transition: all .5s ease-in-out;
+                                   -ms-transition: all .5s ease-in-out;
+                                   -o-transition: all .5s ease-in-out;
+                                   transition: all .5s ease-in-out;
+                                   &:hover{
                                         border: 1px solid #38ccb9;
                                         color: #38ccb9;
                                         font-weight: 500;
                                         background-position-x: 230px;
-                                        transition: 0.5s;
+                                        -webkit-transition: all .5s ease-in-out;
+                                        -moz-transition: all .5s ease-in-out;
+                                        -ms-transition: all .5s ease-in-out;
+                                        -o-transition: all .5s ease-in-out;
+                                        transition: all .5s ease-in-out;
                                     }
                                 }
                             }
@@ -351,33 +410,65 @@
                                         a.page-numbers{
                                             background-color: #38ccb9;
                                             color: #fff;
-                                            transition: background-color 0.5s ease-in-out;
+                                            -webkit-transition: all .5s ease-in-out;
+                                            -moz-transition: all .5s ease-in-out;
+                                            -ms-transition: all .5s ease-in-out;
+                                            -o-transition: all .5s ease-in-out;
+                                            transition: all .5s ease-in-out;
                                         }
                                         a.prev.page-numbers, a.next.page-numbers{
                                             background-color: #38ccb9;
-                                            transition: 0.3s;
+                                            -webkit-transition: all .5s ease-in-out;
+                                            -moz-transition: all .5s ease-in-out;
+                                            -ms-transition: all .5s ease-in-out;
+                                            -o-transition: all .5s ease-in-out;
+                                            transition: all .5s ease-in-out;
                                             color: #fff;
                                         }
                                         a.numberpage{
                                             color: #fff;
-                                            transition: 0.5s;
+                                            -webkit-transition: all .5s ease-in-out;
+                                            -moz-transition: all .5s ease-in-out;
+                                            -ms-transition: all .5s ease-in-out;
+                                            -o-transition: all .5s ease-in-out;
+                                            transition: all .5s ease-in-out;
                                         }
                                     }
                                     a.prev.page-numbers, a.next.page-numbers{
                                         color: #7a7a7a;
                                         padding: 16px;
+                                        -webkit-transition: all .5s ease-in-out;
+                                        -moz-transition: all .5s ease-in-out;
+                                        -ms-transition: all .5s ease-in-out;
+                                        -o-transition: all .5s ease-in-out;
+                                        transition: all .5s ease-in-out;
                                         i.fas {
                                             color: #fff;
+                                            -webkit-transition: all .5s ease-in-out;
+                                            -moz-transition: all .5s ease-in-out;
+                                            -ms-transition: all .5s ease-in-out;
+                                            -o-transition: all .5s ease-in-out;
+                                            transition: all .5s ease-in-out;
                                         }
                                     }
                                     a.page-numbers{
                                         padding: 16px;
                                         color: #7a7a7a;
+                                        -webkit-transition: all .5s ease-in-out;
+                                        -moz-transition: all .5s ease-in-out;
+                                        -ms-transition: all .5s ease-in-out;
+                                        -o-transition: all .5s ease-in-out;
+                                        transition: all .5s ease-in-out;
                                     }
                                     span.current {
                                         background-color: #38ccb9;
                                         color: #fff;
                                         padding: 16px;
+                                        -webkit-transition: all .5s ease-in-out;
+                                        -moz-transition: all .5s ease-in-out;
+                                        -ms-transition: all .5s ease-in-out;
+                                        -o-transition: all .5s ease-in-out;
+                                        transition: all .5s ease-in-out;
                                     }
                                 }
                             }
@@ -405,11 +496,11 @@
                                         .product_image{
                                             .container-menu-btn-product{
                                                 opacity: 1;
-                                                -webkit-transition: all .5s ease;
-                                                -moz-transition: all .5s ease;
-                                                -ms-transition: all .5s ease;
-                                                -o-transition: all .5s ease;
-                                                transition: all .5s ease;
+                                                -webkit-transition: all .5s ease-in-out;
+                                                -moz-transition: all .5s ease-in-out;
+                                                -ms-transition: all .5s ease-in-out;
+                                                -o-transition: all .5s ease-in-out;
+                                                transition: all .5s ease-in-out;
                                                 -webkit-transform: translateX(0);
                                                 -o-transform: translateX(0);
                                                 -ms-transform: translateX(0);
@@ -421,32 +512,32 @@
                                         h2.woocommerce-loop-product__title{
                                             a.woocommerce-loop-product.link-title{
                                                 color: #92DE8C;
-                                                 -webkit-transition: all .5s ease;
-                                                -moz-transition: all .5s ease;
-                                                -ms-transition: all .5s ease;
-                                                -o-transition: all .5s ease;
-                                                transition: all .5s ease;
+                                                -webkit-transition: all .5s ease-in-out;
+                                                -moz-transition: all .5s ease-in-out;
+                                                -ms-transition: all .5s ease-in-out;
+                                                -o-transition: all .5s ease-in-out;
+                                                transition: all .5s ease-in-out;
                                             }
                                         }
                                         span.price{
                                             span.woocommerce-Price-amount.amount.price-item{
                                                 font-weight: 500;
                                                 font-size: 30px;
-                                                 -webkit-transition: all .5s ease;
-                                                -moz-transition: all .5s ease;
-                                                -ms-transition: all .5s ease;
-                                                -o-transition: all .5s ease;
-                                                transition: all .5s ease;
+                                                -webkit-transition: all .5s ease-in-out;
+                                                -moz-transition: all .5s ease-in-out;
+                                                -ms-transition: all .5s ease-in-out;
+                                                -o-transition: all .5s ease-in-out;
+                                                transition: all .5s ease-in-out;
                                             }
                                             ins.saled{
                                                 span.woocommerce-Price-amount.amount.price-item{
                                                     font-weight: 500;
                                                     font-size: 30px;
-                                                    -webkit-transition: all .5s ease;
-                                                    -moz-transition: all .5s ease;
-                                                    -ms-transition: all .5s ease;
-                                                    -o-transition: all .5s ease;
-                                                    transition: all .5s ease;
+                                                    -webkit-transition: all .5s ease-in-out;
+                                                    -moz-transition: all .5s ease-in-out;
+                                                    -ms-transition: all .5s ease-in-out;
+                                                    -o-transition: all .5s ease-in-out;
+                                                    transition: all .5s ease-in-out;
                                                 }
                                             }
                                         }
@@ -482,22 +573,22 @@
                                             opacity: 0;
                                             transform: translateX(-50px);
                                             visibility: hidden;
-                                            -webkit-transition: all 0.3s ease-in;
-                                            -moz-transition: all 0.3s ease-in;
-                                            -ms-transition: all 0.3s ease-in;
-                                            -o-transition: all 0.3s ease-in;
-                                            transition: all 0.3s ease-in;
+                                            -webkit-transition: all 0.3s ease-in-out;
+                                            -moz-transition: all 0.3s ease-in-out;
+                                            -ms-transition: all 0.3s ease-in-out;
+                                            -o-transition: all 0.3s ease-in-out;
+                                            transition: all 0.3s ease-in-out;
                                             ul.lists-button {
                                                 width: 100%;
                                                 margin: 0;
                                                 padding: 0;
                                                 list-style: none;
                                                 text-align: right;
-                                                -webkit-transition: all 0.3s ease-in;
-                                                -moz-transition: all 0.3s ease-in;
-                                                -ms-transition: all 0.3s ease-in;
-                                                -o-transition: all 0.3s ease-in;
-                                                transition: all 0.3s ease-in;
+                                                -webkit-transition: all 0.3s ease-in-out;
+                                                -moz-transition: all 0.3s ease-in-out;
+                                                -ms-transition: all 0.3s ease-in-out;
+                                                -o-transition: all 0.3s ease-in-out;
+                                                transition: all 0.3s ease-in-out;
                                                 li.button-item {
                                                     margin: 0 0px 0 1px;
                                                     background-color: #ffffff00;
@@ -510,30 +601,33 @@
                                                         margin: 0;
                                                         width: 50px;
                                                         height: 50px;
-                                                        padding: 14px;
+                                                        display: inline-flex;
+                                                        justify-content: center;
+                                                        align-items: center;
                                                         color: #253937;
                                                         &:hover{
                                                             background-color: #38ccb9;
                                                             border: 1px solid #38ccb9;
-                                                            -webkit-transition: all 0.3s ease-in;
-                                                            -moz-transition: all 0.3s ease-in;
-                                                            -ms-transition: all 0.3s ease-in;
-                                                            -o-transition: all 0.3s ease-in;
-                                                            transition: all 0.3s ease-in;
+                                                            -webkit-transition: all 0.3s ease-in-out;
+                                                            -moz-transition: all 0.3s ease-in-out;
+                                                            -ms-transition: all 0.3s ease-in-out;
+                                                            -o-transition: all 0.3s ease-in-out;
+                                                            transition: all 0.3s ease-in-out;
                                                             span{
-                                                                &.flaticon-shopping-bag-2:before, &.flaticon-magnifying-glass:before{
+                                                                &:before{
                                                                     color: #fff;
-                                                                    -webkit-transition: all 0.4s ease-in;
-                                                                    -moz-transition: all 0.4s ease-in;
-                                                                    -ms-transition: all 0.4s ease-in;
-                                                                    -o-transition: all 0.4s ease-in;
-                                                                    transition: all 0.4s ease-in;
+                                                                    -webkit-transition: all 0.4s ease-in-out;
+                                                                    -moz-transition: all 0.4s ease-in-out;
+                                                                    -ms-transition: all 0.4s ease-in-out;
+                                                                    -o-transition: all 0.4s ease-in-out;
+                                                                    transition: all 0.4s ease-in-out;
                                                                 }
                                                             }
                                                         }
                                                         span{
-                                                            &.flaticon-shopping-bag-2:before, &.flaticon-magnifying-glass:before{
+                                                            &:before{
                                                                 color: #253937;
+                                                                font-weight: bold;
                                                             }
                                                         }
                                                     }
@@ -545,25 +639,27 @@
                                                             margin: 0;
                                                             width: 50px;
                                                             height: 50px;
-                                                            padding: 14px;
+                                                            display: inline-flex;
+                                                            justify-content: center;
+                                                            align-items: center;
                                                             color: #253937;
                                                             &:hover{
                                                                 background-color: #38ccb9;
                                                                 border: 1px solid #38ccb9;
-                                                                -webkit-transition: all 0.3s ease-in;
-                                                                -moz-transition: all 0.3s ease-in;
-                                                                -ms-transition: all 0.3s ease-in;
-                                                                -o-transition: all 0.3s ease-in;
-                                                                transition: all 0.3s ease-in;
+                                                                -webkit-transition: all 0.3s ease-in-out;
+                                                                -moz-transition: all 0.3s ease-in-out;
+                                                                -ms-transition: all 0.3s ease-in-out;
+                                                                -o-transition: all 0.3s ease-in-out;
+                                                                transition: all 0.3s ease-in-out;
                                                                 span.lnr.lnr-heart{
                                                                     i.far.fa-heart{
                                                                         &:before{
                                                                             color: #fff;
-                                                                            -webkit-transition: all 0.4s ease-in;
-                                                                            -moz-transition: all 0.4s ease-in;
-                                                                            -ms-transition: all 0.4s ease-in;
-                                                                            -o-transition: all 0.4s ease-in;
-                                                                            transition: all 0.4s ease-in;
+                                                                            -webkit-transition: all 0.4s ease-in-out;
+                                                                            -moz-transition: all 0.4s ease-in-out;
+                                                                            -ms-transition: all 0.4s ease-in-out;
+                                                                            -o-transition: all 0.4s ease-in-out;
+                                                                            transition: all 0.4s ease-in-out;
                                                                         }
                                                                     }
                                                                 }
@@ -596,6 +692,11 @@
                                         letter-spacing: -0.2px;
                                         a.woocommerce-loop-product.link-title{
                                             color: #031b18;
+                                            -webkit-transition: all .5s ease-in-out;
+                                            -moz-transition: all .5s ease-in-out;
+                                            -ms-transition: all .5s ease-in-out;
+                                            -o-transition: all .5s ease-in-out;
+                                            transition: all .5s ease-in-out;
                                         }
                                     }
                                     .woocommerce-product-rating {
@@ -618,9 +719,12 @@
                                         }
                                         a.woocommerce-review-link{
                                             text-decoration: none;
-                                            color: #031B18;
+                                            color: #7a7a7a;
+                                            font-size: 13px;
+                                            font-weight: 400;
                                             span.count{
-                                                color: #031B18;
+                                                color: #7a7a7a;
+                                                font-weight: 400;
                                             }
                                         }
                                     }
@@ -637,6 +741,11 @@
                                             color: #38ccb9;
                                             font-size: 27px;
                                             font-weight: 400;
+                                            -webkit-transition: all .5s ease-in-out;
+                                            -moz-transition: all .5s ease-in-out;
+                                            -ms-transition: all .5s ease-in-out;
+                                            -o-transition: all .5s ease-in-out;
+                                            transition: all .5s ease-in-out;
 
                                         }
                                         del.not-sale{
@@ -654,7 +763,11 @@
                                                 color: #38ccb9;
                                                 font-size: 27px;
                                                 font-weight: 400;
-                                                
+                                                -webkit-transition: all .5s ease-in-out;
+                                                -moz-transition: all .5s ease-in-out;
+                                                -ms-transition: all .5s ease-in-out;
+                                                -o-transition: all .5s ease-in-out;
+                                                transition: all .5s ease-in-out;
                                             }
                                         }
                                     }
@@ -1257,3 +1370,22 @@
 // @keyframes beat{ hiệu ứng tim đập
 //     to { transform: scale(1.4); }
 // }
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  50% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+
+  100% {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}

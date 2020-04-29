@@ -92,7 +92,7 @@ class Send_Us_And_Call_Us extends Widget_Base {
                     'value' => \Elementor\Scheme_Color::COLOR_1,
                 ],
                 'selectors' => [
-                    '{{WRAPPER}} .title' => 'color: {{VALUE}}',
+                    '{{WRAPPER}} .title a.link h2.text' => 'color: {{VALUE}}',
                 ],
             ]
         );
@@ -102,7 +102,7 @@ class Send_Us_And_Call_Us extends Widget_Base {
                 'name' => 'content_typography',
                 'label' => __( 'Typography', 'plugin-domain' ),
                 'scheme' => Scheme_Typography::TYPOGRAPHY_1,
-                'selector' => '{{WRAPPER}} .title>h2.text',
+                'selector' => '{{WRAPPER}} .title a.link h2.text',
             ]
         );
         $this->add_control(
@@ -132,85 +132,12 @@ class Send_Us_And_Call_Us extends Widget_Base {
             ],
         );
         $this->add_control(
-            'icon_email',
+            'hr',
             [
-                'label' => __( 'Icon Email', 'text-domain' ),
-                'type' => \Elementor\Controls_Manager::ICONS,
-                'default' => [
-                    'value' => 'fas fa-shopping-bag',
-                    'library' => 'solid',
-                ],
+                'type' => \Elementor\Controls_Manager::DIVIDER,
             ]
         );
-        $this->add_control(
-            'widget_title_email',
-            [
-                'label' => __( 'Title', 'plugin-domain' ),
-                'type' => \Elementor\Controls_Manager::TEXT,
-                'default' => __( 'Default title', 'plugin-domain' ),
-                'placeholder' => __( 'Type your title here', 'plugin-domain' ),
-            ],
-        );
-        $this->add_control(
-            'icon_call_us',
-            [
-                'label' => __( 'Icon Call Us', 'text-domain' ),
-                'type' => \Elementor\Controls_Manager::ICONS,
-                'default' => [
-                    'value' => 'fas fa-shopping-bag',
-                    'library' => 'solid',
-                ],
-            ]
-        );
-        $this->add_control(
-            'widget_title_call_us',
-            [
-                'label' => __( 'Title', 'plugin-domain' ),
-                'type' => \Elementor\Controls_Manager::TEXT,
-                'default' => __( 'Default title', 'plugin-domain' ),
-                'placeholder' => __( 'Type your title here', 'plugin-domain' ),
-            ],
-        );
-        $this->add_control(
-            'font_size_icon',
-            [
-                'label' => __( 'Font Size', 'plugin-domain' ),
-                'type' => Controls_Manager::SLIDER,
-                'size_units' => [ 'px', '%' ],
-                'range' => [
-                    'px' => [
-                        'min' => 0,
-                        'max' => 1000,
-                        'step' => 1,
-                    ],
-                    '%' => [
-                        'min' => 0,
-                        'max' => 100,
-                    ],
-                ],
-                'default' => [
-                    'unit' => 'px',
-                    'size' => 50,
-                ],
-                'selectors' => [
-                    '{{WRAPPER}} .icon' => 'font-size: {{SIZE}}{{UNIT}};',
-                ],
-            ]
-        );
-        $this->add_control(
-            'icon_color',
-            [
-                'label' => __( 'Icon Color', 'plugin-domain' ),
-                'type' => \Elementor\Controls_Manager::COLOR,
-                'scheme' => [
-                    'type' => \Elementor\Scheme_Color::get_type(),
-                    'value' => \Elementor\Scheme_Color::COLOR_1,
-                ],
-                'selectors' => [
-                    '{{WRAPPER}} .icon' => 'color: {{VALUE}}',
-                ],
-            ]
-        );
+        
         $this->add_group_control(
             \Elementor\Group_Control_Border::get_type(),
             [
@@ -300,6 +227,174 @@ class Send_Us_And_Call_Us extends Widget_Base {
                 ],
             ]
         );
+
+        $this->end_controls_section();
+        //===============icon==============
+        $this->start_controls_section(
+            'content_section_email',
+            [
+                'label' => __( 'Content Email', 'plugin-name' ),
+                'tab' => \Elementor\Controls_Manager::TAB_CONTENT,
+            ]
+        );
+
+        $this->add_control(
+            'icon_email',
+            [
+                'label' => __( 'Icon Email', 'text-domain' ),
+                'type' => \Elementor\Controls_Manager::ICONS,
+                'default' => [
+                    'value' => 'fas fa-shopping-bag',
+                    'library' => 'solid',
+                ],
+            ]
+        );
+        $this->add_control(
+            'icon_color_1',
+            [
+                'label' => __( 'Icon Color', 'plugin-domain' ),
+                'type' => \Elementor\Controls_Manager::COLOR,
+                'scheme' => [
+                    'type' => \Elementor\Scheme_Color::get_type(),
+                    'value' => \Elementor\Scheme_Color::COLOR_1,
+                ],
+                'selectors' => [
+                    '{{WRAPPER}} .send-email .icon a.link i' => 'color: {{VALUE}}',
+                ],
+            ]
+        );
+        $this->add_control(
+            'font_size_icon_1',
+            [
+                'label' => __( 'Font Size', 'plugin-domain' ),
+                'type' => Controls_Manager::SLIDER,
+                'size_units' => [ 'px', '%' ],
+                'range' => [
+                    'px' => [
+                        'min' => 0,
+                        'max' => 1000,
+                        'step' => 1,
+                    ],
+                    '%' => [
+                        'min' => 0,
+                        'max' => 100,
+                    ],
+                ],
+                'default' => [
+                    'unit' => 'px',
+                    'size' => 50,
+                ],
+                'selectors' => [
+                    '{{WRAPPER}} .send-email .icon a.link i' => 'font-size: {{SIZE}}{{UNIT}};',
+                ],
+            ]
+        );
+        $this->add_control(
+            'widget_title_email',
+            [
+                'label' => __( 'Title', 'plugin-domain' ),
+                'type' => \Elementor\Controls_Manager::TEXT,
+                'default' => __( 'Default title', 'plugin-domain' ),
+                'placeholder' => __( 'Type your title here', 'plugin-domain' ),
+            ],
+        );
+        $this->add_control(
+            'website_link_email',
+            [
+                'label' => __( 'Link', 'plugin-domain' ),
+                'type' => \Elementor\Controls_Manager::URL,
+                'placeholder' => __( 'https://your-link.com', 'plugin-domain' ),
+                'show_external' => true,
+                'default' => [
+                    'url' => '',
+                    'is_external' => true,
+                    'nofollow' => true,
+                ],
+            ]
+        );
+        $this->end_controls_section();
+         //===============icon==============
+        $this->start_controls_section(
+            'content_section_call_us',
+            [
+                'label' => __( 'Content Call Us', 'plugin-name' ),
+                'tab' => \Elementor\Controls_Manager::TAB_CONTENT,
+            ]
+        );
+        $this->add_control(
+            'icon_call_us',
+            [
+                'label' => __( 'Icon Call Us', 'text-domain' ),
+                'type' => \Elementor\Controls_Manager::ICONS,
+                'default' => [
+                    'value' => 'fas fa-shopping-bag',
+                    'library' => 'solid',
+                ],
+            ]
+        );
+        $this->add_control(
+            'icon_color_2',
+            [
+                'label' => __( 'Icon Color', 'plugin-domain' ),
+                'type' => \Elementor\Controls_Manager::COLOR,
+                'scheme' => [
+                    'type' => \Elementor\Scheme_Color::get_type(),
+                    'value' => \Elementor\Scheme_Color::COLOR_1,
+                ],
+                'selectors' => [
+                    '{{WRAPPER}} .call-us .icon a.link i' => 'color: {{VALUE}}',
+                ],
+            ]
+        );
+        $this->add_control(
+            'font_size_icon_2',
+            [
+                'label' => __( 'Font Size', 'plugin-domain' ),
+                'type' => Controls_Manager::SLIDER,
+                'size_units' => [ 'px', '%' ],
+                'range' => [
+                    'px' => [
+                        'min' => 0,
+                        'max' => 1000,
+                        'step' => 1,
+                    ],
+                    '%' => [
+                        'min' => 0,
+                        'max' => 100,
+                    ],
+                ],
+                'default' => [
+                    'unit' => 'px',
+                    'size' => 50,
+                ],
+                'selectors' => [
+                    '{{WRAPPER}} .call-us .icon a.link i' => 'font-size: {{SIZE}}{{UNIT}};',
+                ],
+            ]
+        );
+        $this->add_control(
+            'widget_title_call_us',
+            [
+                'label' => __( 'Title', 'plugin-domain' ),
+                'type' => \Elementor\Controls_Manager::TEXT,
+                'default' => __( 'Default title', 'plugin-domain' ),
+                'placeholder' => __( 'Type your title here', 'plugin-domain' ),
+            ],
+        );
+        $this->add_control(
+            'website_link_call_us',
+            [
+                'label' => __( 'Link', 'plugin-domain' ),
+                'type' => \Elementor\Controls_Manager::URL,
+                'placeholder' => __( 'https://your-link.com', 'plugin-domain' ),
+                'show_external' => true,
+                'default' => [
+                    'url' => '',
+                    'is_external' => true,
+                    'nofollow' => true,
+                ],
+            ]
+        );
         $this->end_controls_section();
 
     }
@@ -315,24 +410,34 @@ class Send_Us_And_Call_Us extends Widget_Base {
     protected function render() {
 
         $settings = $this->get_settings_for_display();
-        $html = wp_oembed_get( $settings['url'] );
+        $target_1 = $settings['website_link_email']['is_external'] ? ' target="_blank"' : '';
+        $nofollow_1 = $settings['website_link_email']['nofollow'] ? ' rel="nofollow"' : '';
+        $target_call_us = $settings['website_link_call_us']['is_external'] ? ' target="_blank"' : '';
+        $nofollow_call_us = $settings['website_link_call_us']['nofollow'] ? ' rel="nofollow"' : '';
         ?>
         <div class="wrapper-support">
             <div class="send-email">
                 <div class="icon">
-                    <?php \Elementor\Icons_Manager::render_icon( $settings['icon_email'], [ 'aria-hidden' => 'true' ] ); ?>
+                    <a href="<?php echo $settings['website_link_email']['url'] ?>" class="link" <?php echo $target_1 ?> <?php echo $nofollow_1 ?>>
+                        <?php \Elementor\Icons_Manager::render_icon( $settings['icon_email'], [ 'aria-hidden' => 'true' ] ); ?>
+                    </a>
                 </div>
                 <div class="title">
-                    <?php echo '<h2 class="text">' . $settings['widget_title_email'] . '</h2>'; ?>
+                    <a href="<?php echo $settings['website_link_email']['url'] ?>" class="link" <?php echo $target_1 ?> <?php echo $nofollow_1 ?> >
+                    <?php echo '<h2 class="text">' . $settings['widget_title_email'] . '</h2>'; ?></a>
                 </div>
             </div>
             <hr>
             <div class="call-us">
                 <div class="icon">
+                    <a href="<?php echo $settings['website_link_call_us']['url'] ?>" class="link" <?php echo $target_call_us ?> <?php echo $nofollow_call_us ?>>
                     <?php \Elementor\Icons_Manager::render_icon( $settings['icon_call_us'], [ 'aria-hidden' => 'true' ] ); ?>
+                    </a>
                 </div>
                 <div class="title">
+                    <a href="<?php echo $settings['website_link_call_us']['url'] ?>" class="link" <?php echo $target_call_us ?> <?php echo $nofollow_call_us ?>>
                     <?php echo '<h2 class="text">' . $settings['widget_title_call_us'] . '</h2>'; ?>
+                    </a>
                 </div>
             </div>
         </div>

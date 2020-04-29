@@ -206,7 +206,7 @@ class Lists_Page extends Widget_Base {
                     'value' => \Elementor\Scheme_Color::COLOR_1,
                 ],
                 'selectors' => [
-                    '{{WRAPPER}} ul.container-lists_page li.container-post a.link-single-post' => 'color: {{VALUE}}',
+                    '{{WRAPPER}} ul.container-lists_page li.container-post a.link-page' => 'color: {{VALUE}}',
                 ],
             ]
         );
@@ -217,6 +217,17 @@ class Lists_Page extends Widget_Base {
                 'label' => __( 'Typography', 'plugin-domain' ),
                 'scheme' => Scheme_Typography::TYPOGRAPHY_1,
                 'selector' => '{{WRAPPER}} ul.container-lists_page li.container-post',
+            ]
+        );
+        $this->add_control(
+            'padding_title_page',
+            [
+                'label' => __( 'Padding', 'plugin-domain' ),
+                'type' => Controls_Manager::DIMENSIONS,
+                'size_units' => [ 'px', '%', 'em' ],
+                'selectors' => [
+                    '{{WRAPPER}} ul.container-lists_page li.container-post a.link-page' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+                ],
             ]
         );
         $this->end_controls_section();
@@ -258,9 +269,9 @@ class Lists_Page extends Widget_Base {
                 while ( $the_query->have_posts() ) : $the_query->the_post(); 
                     $position = ($i == 2 || $i == 5 || $i == 8) ? esc_attr('between') : '';?>
                 <li class="container-post <?php echo $position ?>">
-                    <a href="<?php the_permalink(); ?>" class="link-single-post">
+                    <a href="<?php the_permalink(); ?>" class="link-page">
                         <!-- title của post -->
-                        <?php echo get_the_title(); ?>
+                        <span class="page-name"></span><?php echo get_the_title(); ?>
                     </a>
                 </li>
             <?php $i ++;?>

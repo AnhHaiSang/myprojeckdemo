@@ -41,8 +41,8 @@
 								i{
 									color: #10b64e;
 									position: absolute;
-									top: -15px;
-									left: -12px;
+									top: -18px;
+									left: -12.5px;
 									font-size: 25px;
 								}
 							}
@@ -60,3 +60,73 @@
 		}
 	}
 }
+@media (min-width: 768px) {
+	.elementor-widget-container{
+		.jws_pet_care_wrap{
+			width: 100%;
+			&.layout1{
+				width: 100%; 
+				.pet_care.pet_care_layouts_layout1{
+					width: 100%;
+					.jws-pet-care{
+						width: 100%;
+						display: flex;
+						justify-content: center;
+						flex-wrap: wrap;
+						
+						&.box-right{
+							flex-direction: row-reverse;
+						}
+						&.box-left{
+							flex-direction: row;
+						}
+						.row.row-eq-height{
+							-ms-flex: 0 0 50%;
+							flex: 0 0 50%;
+							max-width: 50%;
+							.col-xl-8.col-lg-7.col-12{
+								.pet_care_content{
+									margin: 0 -10px 0 -6px;
+								}
+							}
+						}
+						.rhombus {
+							border: 1px solid #10b64e;
+							margin: 0px 26px 0 28px;
+							.rhombus_position {
+								width: 100%;
+								position: relative;
+								height: 100%;
+								span.icon-rhombus {
+									position: absolute;
+									top: 0;
+									left: 0;
+									i{
+										color: #10b64e;
+										position: absolute;
+										top: -18px;
+										left: -12.5px;
+										font-size: 25px;
+									}
+								}
+							}
+						}
+						.box-empty {
+							-ms-flex: 0 0 50%;
+							flex: 0 0 50%;
+							max-width: 50%;
+							margin-right: -15px;
+							margin-left: -15px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media (min-width: 576px) { 
+  .container {
+    max-width: 540px;
+  }
+}
+

@@ -12,6 +12,7 @@ var jwsThemeModule;
       this.sliderServices();
       this.sliderConnetVideo();
       this.gallery();
+      this.updateCart();
     },
     // -----------------------click show/hiden search----------------
     search :function(){ 
@@ -76,6 +77,21 @@ var jwsThemeModule;
         dots: true,
       });
     },
+
+    updateCart :function(){
+      $('form.woocommerce-cart-form').on( 'click', 'button.plus, button.minus', function() {
+        console.log('asd');
+        var qty = $( this ).closest( 'form.cart, form.woocommerce-cart-form' ).find( '.qty' );
+        var val   = parseFloat(qty.val());
+        var max = parseFloat(qty.attr( 'max' ));
+        var min = parseFloat(qty.attr( 'min' ));
+        // var update_cart = $( this ).closest( 'form.woocommerce-cart-form' ).find( 'button.button' );
+        if ( val !== max || val !== min ) {
+         $('form.woocommerce-cart-form').find('button[name="update_cart"]').removeAttr( 'disabled' )
+       }
+         
+      });
+    },
     //***ISOTOPE***
       // init Isotope
     gallery :function(){
@@ -135,9 +151,27 @@ var jwsThemeModule;
         $('.slider-nav-thumbnails .slick-slide').eq(mySlideNumber).addClass('slick-active');
       });
     },
+
+
   }
 }())
  $(document).ready(function() {
   jwsThemeModule.init();
+    function quantity(){
+      $(document).on('click', 'button.plus', function() {
+        var parent = $(this).parent();
+        $('input.qty', parent).val( parseInt($('input.qty', parent).val()) + 1);
+      })
+      $(document).on('click', 'button.minus', function() {
+        var parent = $(this).parent();
+        if( parseInt($('input.qty', parent).val()) > 1) {
+          $('input.qty', parent).val( parseInt($('input.qty', parent).val()) - 1);
+        }
+      })
+    };
+  quantity();
+  jQuery(document.body).on('removed_from_cart updated_cart_totals', function () {
+   console.log('dsa');
+ });
 }); 
 })(jQuery);

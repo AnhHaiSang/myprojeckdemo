@@ -285,7 +285,7 @@ class Posts extends Widget_Base {
                     'value' => \Elementor\Scheme_Color::COLOR_1,
                 ],
                 'selectors' => [
-                    '{{WRAPPER}} .categories-date, a.link-post-cat, span.date, .categories-date>span.divider, span.cat-post-name, span.name, a.link-cat, span.cat-post-name, a.link-info-author, span.name, .entry-meta>span.line-column' => 'color: {{VALUE}}',
+                    '{{WRAPPER}} .categories-date , a.link-post-cat, span.date, .categories-date>span.divider, span.cat-post-name, span.name, a.link-cat, span.cat-post-name, a.link-info-author, span.name, .entry-meta>span.line-column' => 'color: {{VALUE}}',
                 ],
             ]
         );
@@ -295,7 +295,7 @@ class Posts extends Widget_Base {
                 'name' => 'content_typography_date',
                 'label' => __( 'Typography Date', 'plugin-domain' ),
                 'scheme' => Scheme_Typography::TYPOGRAPHY_1,
-                'selector' => '{{WRAPPER}} .categories-date, a.link-post-cat, span.date, .entry-meta, a.link-cat>span.cat-post-name, a.link-date>span.date, a.link-info-author>span.name',
+                'selector' => '{{WRAPPER}} li.container-post .content .categories-date span.post-cat a.link-post-cat, li.container-post .content .categories-date span.date, .entry-meta, a.link-cat>span.cat-post-name, a.link-date>span.date, a.link-info-author>span.name',
             ]
         );
         $this->add_control(

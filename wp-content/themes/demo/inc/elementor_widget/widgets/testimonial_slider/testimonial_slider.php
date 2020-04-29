@@ -447,7 +447,7 @@ class Testimonial_Slider extends Widget_Base {
                 'type' => \Elementor\Controls_Manager::DIMENSIONS,
                 'size_units' => [ 'px', 'em', '%' ],
                 'selectors' => [
-                    '{{WRAPPER}} .jws_testimonials_slider_wrap .testimonials_slider .slick-slide .row.row-eq-height .col-xl-8.col-lg-7.col-12 .slider_content h2.testimonials_title' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+                    '{{WRAPPER}} .testimonials_title' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
                 ],
             ]
         );
@@ -458,7 +458,7 @@ class Testimonial_Slider extends Widget_Base {
                 'type' => \Elementor\Controls_Manager::DIMENSIONS,
                 'size_units' => [ 'px', 'em', '%' ],
                 'selectors' => [
-                    '{{WRAPPER}} .jws_testimonials_slider_wrap .testimonials_slider .slick-slide .row.row-eq-height .col-xl-8.col-lg-7.col-12 .slider_content h2.testimonials_title' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+                    '{{WRAPPER}} .testimonials_title' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
                 ],
             ]
         );
@@ -477,7 +477,7 @@ class Testimonial_Slider extends Widget_Base {
 						'type' 		=> Controls_Manager::COLOR,
 						'default' 	=> '#333333',
 						'selectors' => [
-							'{{WRAPPER}} .jws_testimonials_slider_wrap .testimonials_slider .testimonials_description' => 'color: {{VALUE}} !important;',
+							'{{WRAPPER}} .testimonials_description' => 'color: {{VALUE}} !important;',
 						],
 					]
 		);
@@ -486,7 +486,7 @@ class Testimonial_Slider extends Widget_Base {
 			[
 				'name' => 'testimonials_slider_description_typography',
 				'label' => __( 'Typography', 'fatcy'),
-				'selector' => '{{WRAPPER}} .jws_testimonials_slider_wrap .testimonials_slider .testimonials_description',
+				'selector' => '{{WRAPPER}} .testimonials_description',
 			]
 		);
 		$this->add_responsive_control(
@@ -496,7 +496,7 @@ class Testimonial_Slider extends Widget_Base {
                 'type' => \Elementor\Controls_Manager::DIMENSIONS,
                 'size_units' => [ 'px', 'em', '%' ],
                 'selectors' => [
-                    '{{WRAPPER}} .jws_testimonials_slider_wrap .testimonials_slider .testimonials_description' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+                    '{{WRAPPER}} .testimonials_description' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
                 ],
             ]
         );
@@ -507,7 +507,7 @@ class Testimonial_Slider extends Widget_Base {
                 'type' => \Elementor\Controls_Manager::DIMENSIONS,
                 'size_units' => [ 'px', 'em', '%' ],
                 'selectors' => [
-                    '{{WRAPPER}} .jws_testimonials_slider_wrap .testimonials_slider .testimonials_description' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+                    '{{WRAPPER}} .testimonials_description' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
                 ],
             ]
         );
@@ -526,7 +526,7 @@ class Testimonial_Slider extends Widget_Base {
 						'type' 		=> Controls_Manager::COLOR,
 						'default' 	=> '#333333',
 						'selectors' => [
-							'{{WRAPPER}} .jws_testimonials_slider_wrap .testimonials_slider .testimonials_name' => 'color: {{VALUE}} !important;',
+							'{{WRAPPER}} .testimonials_name' => 'color: {{VALUE}} !important;',
 						],
 					]
 		);
@@ -535,7 +535,7 @@ class Testimonial_Slider extends Widget_Base {
 			[
 				'name' => 'testimonials_slider_name_typography',
 				'label' => __( 'Typography', 'fatcy'),
-				'selector' => '{{WRAPPER}} .jws_testimonials_slider_wrap .testimonials_slider .testimonials_name',
+				'selector' => '{{WRAPPER}} .testimonials_name',
 			]
 		);
 		$this->add_responsive_control(
@@ -545,7 +545,7 @@ class Testimonial_Slider extends Widget_Base {
                 'type' => \Elementor\Controls_Manager::DIMENSIONS,
                 'size_units' => [ 'px', 'em', '%' ],
                 'selectors' => [
-                    '{{WRAPPER}} .jws_testimonials_slider_wrap .testimonials_slider .slick-slide .row.row-eq-height .col-xl-8.col-lg-7.col-12 .slider_content h3.testimonials_name' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+                    '{{WRAPPER}} .testimonials_name' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
                 ],
             ]
         );
@@ -556,7 +556,7 @@ class Testimonial_Slider extends Widget_Base {
                 'type' => \Elementor\Controls_Manager::DIMENSIONS,
                 'size_units' => [ 'px', 'em', '%' ],
                 'selectors' => [
-                    '{{WRAPPER}} .jws_testimonials_slider_wrap .testimonials_slider .slick-slide .row.row-eq-height .col-xl-8.col-lg-7.col-12 .slider_content h3.testimonials_name' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+                    '{{WRAPPER}} .testimonials_name' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
                 ],
             ]
         );
@@ -575,7 +575,7 @@ class Testimonial_Slider extends Widget_Base {
 						'type' 		=> Controls_Manager::COLOR,
 						'default' 	=> '#333333',
 						'selectors' => [
-							'{{WRAPPER}} .jws_testimonials_slider_wrap .testimonials_slider .testimonials_job' => 'color: {{VALUE}} !important;',
+							'{{WRAPPER}} .testimonials_job' => 'color: {{VALUE}} !important;',
 						],
 					]
 		);
@@ -584,7 +584,7 @@ class Testimonial_Slider extends Widget_Base {
 			[
 				'name' => 'testimonials_slider_job_typography',
 				'label' => __( 'Typography', 'fatcy'),
-				'selector' => '{{WRAPPER}} .jws_testimonials_slider_wrap .testimonials_slider .testimonials_job',
+				'selector' => '{{WRAPPER}} .testimonials_job',
 			]
 		);
 		$this->add_responsive_control(
@@ -594,7 +594,7 @@ class Testimonial_Slider extends Widget_Base {
                 'type' => \Elementor\Controls_Manager::DIMENSIONS,
                 'size_units' => [ 'px', 'em', '%' ],
                 'selectors' => [
-                    '{{WRAPPER}} .jws_testimonials_slider_wrap .testimonials_slider .slick-slide .row.row-eq-height .col-xl-8.col-lg-7.col-12 .slider_content h6.testimonials_job' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+                    '{{WRAPPER}} .testimonials_job' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
                 ],
             ]
         );
@@ -605,7 +605,7 @@ class Testimonial_Slider extends Widget_Base {
                 'type' => \Elementor\Controls_Manager::DIMENSIONS,
                 'size_units' => [ 'px', 'em', '%' ],
                 'selectors' => [
-                    '{{WRAPPER}} .jws_testimonials_slider_wrap .testimonials_slider .slick-slide .row.row-eq-height .col-xl-8.col-lg-7.col-12 .slider_content h6.testimonials_job' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+                    '{{WRAPPER}} .testimonials_job' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
                 ],
             ]
         );
@@ -1020,7 +1020,10 @@ class Testimonial_Slider extends Widget_Base {
                     <div class="slider-nav-thumbnails">
                     	<?php foreach (  $settings['list'] as $item ) {?>
                     		<div class="slick-slide">
-                                     <div class="items"><?php echo \Elementor\Group_Control_Image_Size::get_attachment_image_html( $item ); ?>
+                                    <div class="items"><?php echo \Elementor\Group_Control_Image_Size::get_attachment_image_html( $item ); ?>
+                                    <div class="wrapper_curl">
+                                     	<span class="curl"></span>
+                                    </div>
                                  </div> 
                             </div>
                         <?php } ?>
